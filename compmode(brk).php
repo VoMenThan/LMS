@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-25">
-                <table class="list-player">
+                <table class="list-player list-compmode">
                     <tr class="h60 label-col">
                         <td class="col-1">RACE CLASS</td>
                         <td class="col-2">ROUND</td>
@@ -102,7 +102,7 @@
         </div>
         <div class="row">
             <div class="col-50">
-                <table class="list-player list-bracket">
+                <table class="list-compmode list-bracket">
                     <tr class="h60 label-col">
                         <td class="col-1">RACE CLASS</td>
                         <td class="col-2">ROUND</td>
@@ -111,10 +111,86 @@
                     </tr>
                     <tr class="person">
                         <td class="col-1">
-                            <div class="person-bracket">
-                                <div class="bracket-number">X001</div>
-                                <div class="bracket-text">NGUYỄN HOÀNG MINH THỌ</div>
-                            </div>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X001</div></td>
+                                    <td><div class="bracket-text">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X016</div></td>
+                                    <td><div class="bracket-text text-override">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X002</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X015</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X003</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X014</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X004</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X013</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X005</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X012</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X006</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X011</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X007</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X010</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
+                            <table class="list-player bracket clearfix">
+                                <tr class="h40 person-bracket text-color-bracket">
+                                    <td><div class="bracket-number">X008</div></td>
+                                    <td><div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div></td>
+                                </tr>
+                                <tr class="h40 person-bracket">
+                                    <td><div class="bracket-number">X09</div></td>
+                                    <td><div class="bracket-text">TRẦN VĂN QUANG</div></td>
+                                </tr>
+                            </table>
                         </td>
                         <td class="col-2">1</td>
                         <td class="col-3">9:00</td>

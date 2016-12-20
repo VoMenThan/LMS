@@ -1176,30 +1176,46 @@ table {
 .wrap-page {
   margin-top: 50px; }
 
-.list-player .label-col .col-2, .list-player .label-col .col-3, .list-player .label-col .col-4 {
+.list-compmode .label-col .col-2, .list-compmode .label-col .col-3, .list-compmode .label-col .col-4 {
   text-align: center; }
-.list-player .person {
+.list-compmode .person {
   background: url("../images/bg/ov-w.png");
   font-size: 20px; }
-  .list-player .person .col-1 {
+  .list-compmode .person .col-1 {
     width: 40%;
     text-align: left; }
-  .list-player .person .col-2, .list-player .person .col-3, .list-player .person .col-4 {
+  .list-compmode .person .col-2, .list-compmode .person .col-3, .list-compmode .person .col-4 {
     width: 20%;
     text-align: center; }
-.list-player .person .active {
+.list-compmode .person .active {
   background: #ffb400;
   background: linear-gradient(to right, #ffb400, #ffb200);
   background: -webkit-linear-gradient(left, #ffb400, #ffb200);
   background: -moz-linear-gradient(right, #ffb400, #ffb200);
   background: -ms-linear-gradient(right, #ffb400, #ffb200);
   background: 0 -linear-gradient(right, #ffb400, #ffb200); }
-.list-player .person .person_heading {
+.list-compmode .person .person_heading {
   color: #000; }
 
 .list-bracket .label-col .col-1, .list-bracket .label-col .col-2, .list-bracket .label-col .col-3, .list-bracket .label-col .col-4 {
   text-align: left;
   width: 25%; }
+.list-bracket .person .text-color-bracket {
+  color: #ffa800; }
+.list-bracket .person .bracket {
+  margin-top: 25px; }
+  .list-bracket .person .bracket .h40 td {
+    height: 40px;
+    vertical-align: middle; }
+  .list-bracket .person .bracket .person-bracket {
+    background: rgba(0, 0, 0, 0.4);
+    margin-bottom: 2px; }
+    .list-bracket .person .bracket .person-bracket td {
+      width: 50%; }
+    .list-bracket .person .bracket .person-bracket .bracket-number {
+      font-size: 30px; }
+    .list-bracket .person .bracket .person-bracket .bracket-text {
+      font-size: 11px; }
 
 .timemode_qual .timeline_right .label-col .col-1, .timemode_qual .timeline_right .label-col .col-2, .timemode_qual .timeline_right .label-col .col-3, .timemode_qual .timeline_right .label-col .col-4 {
   width: 25%; }
