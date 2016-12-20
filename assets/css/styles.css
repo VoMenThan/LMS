@@ -1570,6 +1570,8 @@ table {
 .other-result td {
   width: 11.11%;
   vertical-align: middle; }
+.other-result .cot3, .other-result .cot7 {
+  vertical-align: bottom; }
 .other-result .cot2, .other-result .cot8 {
   position: relative; }
 .other-result .h80 .cot2 img, .other-result .h80 .cot8 img {
