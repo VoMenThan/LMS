@@ -31,6 +31,10 @@
                     </table>
                 </div>
 
+                <div class="col-50">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eius facilis fuga natus perspiciatis quidem reiciendis? Architecto delectus distinctio iusto nesciunt officia porro quasi quo rem, sequi? Animi, porro, vel!
+                </div>
+
                 <div class="col-25">
                     <table class="list-result">
                         <tr class="h60 label-col">
@@ -79,7 +83,7 @@
                         <tr class="rs h40">
                             <td class="col-1 cup">
                                 X001
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                             </td>
                             <td class="col-2 win">9.78</td>
                             <td class="col-3">TT</td>
@@ -134,7 +138,7 @@
                             <td class="col-3">TT</td>
                             <td class="col-4 win">9.78</td>
                             <td class="col-5 cup">
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                                 A001
                             </td>
                         </tr>
@@ -186,7 +190,7 @@
                             <td class="col-3">TT</td>
                             <td class="col-4 win">9.78</td>
                             <td class="col-5 cup">
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                                 A001
                             </td>
                         </tr>
@@ -238,7 +242,7 @@
                             <td class="col-3">TT</td>
                             <td class="col-4 win">9.78</td>
                             <td class="col-5 cup">
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                                 A001
                             </td>
                         </tr>
@@ -290,7 +294,7 @@
                             <td class="col-3">TT</td>
                             <td class="col-4 win">9.78</td>
                             <td class="col-5 cup">
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                                 A001
                             </td>
                         </tr>
@@ -342,7 +346,7 @@
                             <td class="col-3">TT</td>
                             <td class="col-4 win">9.78</td>
                             <td class="col-5 cup">
-                                <img src="assets/images/img/cup.png" alt="">
+                                <img src="assets/images/img/cup-sm.png" alt="">
                                 A001
                             </td>
                         </tr>
