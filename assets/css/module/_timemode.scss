@@ -128,14 +128,14 @@
         padding-left: 15px !important;
         &.cup{
           img{
-            right: -10px;
+            right: -17px;
           }
         }
       }
       &.col-5{
         padding-right: 15px !important;
           img{
-            left: -40px;
+            left: -47px;
           }
       }
       &.cup{
@@ -168,6 +168,121 @@
     }
   }
 }
+
+.list-best-result{
+  background: rgba(255, 255, 255, 0.2);
+  .col-1{
+    width: 50px;
+    text-align: center;
+  }
+  .col-2{
+    width: 138px;
+    text-align: center;
+  }
+  .col-3{}
+  .col-4{
+    text-align: right;
+    line-height:22px;
+    span{
+      font-size: 14px;
+    }
+  }
+  .best-per{
+    font-size: 24px;
+    .col-3{
+      font-size: 14px;
+    }
+  }
+}
+.estimated{
+  background: rgba(255, 255, 255, 0.1);
+  .label-col{
+    .tt-opa{
+      font-size: 30px;
+    }
+  }
+  .box-list-calendar{
+    td{
+      padding: 30px;
+      .item-couple{
+        margin: 7px 0;
+        tr:first-child{
+          .col-1,
+          .col-2{
+            border-bottom: 1px solid #343331;
+          }
+        }
+        .col-1{
+          background: rgba(0, 0, 0, 0.5);
+          font-size: 30px;
+          padding: 0;
+          width: 105px;
+          vertical-align: middle;
+        }
+        .col-2{
+          background: rgba(0, 0, 0, 0.5);
+          font-size: 11px;
+          padding: 0;
+          vertical-align: middle;
+        }
+        .col-3{
+          position: relative;
+          padding: 0;
+          width: 50px;
+          &:after,
+          &:before{
+            content: '';
+            display: block;
+            width: 100%;
+            border-top: 1px solid #fff;
+            position: absolute;
+            left: 0;
+          }
+          &:before{
+            top: 25%;
+          }
+          &:after{
+            top: 75%;
+          }
+        }
+        .col-4{
+          position: relative;
+          text-align: right;
+          vertical-align: middle;
+          padding: 0 !important;
+          width: 70px;
+          img{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            @include translate(0, -50%);
+            z-index: 1;
+          }
+          &:before {
+            content: '';
+            display: block;
+            width: 0;
+            height:50%;
+            position: absolute;
+            top: 25%;
+            left: 0;
+            border-left: 1px solid #fff;
+          }
+          &:after {
+            z-index: 0;
+            content: '';
+            display: block;
+            width: 100%;
+            height:0;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            border-top: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
 // Nam //
-
-
