@@ -65,7 +65,6 @@ header{
     vertical-align: middle;
   }
 }
-
 .h60{
   td{
     height: 60px;
@@ -103,6 +102,14 @@ table{
 .label-col{
   background: url("../images/bg/ov.png");
   font-size: 20px;
+  td{
+    background: url("../images/bg/ov.png");
+  }
+  .tt-opa{
+    font-family: $main-cbi;
+    color: $cl-text;
+    font-size: 36px;
+  }
 }
 .break{
   font-size: 18px;
@@ -110,7 +117,49 @@ table{
 .wrap-page{
   margin-top: 50px;
 }
+.list-player{
+  .person{
+    background: url("../images/bg/ov-w.png");
+    font-size: 24px;
+    &.active{
+      .col-1{
+        background: #ffb400;
+        background: linear-gradient(to right, #ffb400, #ffb200);
+        background: -webkit-linear-gradient(left, #ffb400, #ffb200);
+        background: -moz-linear-gradient(right, #ffb400, #ffb200);
+        background: -ms-linear-gradient(right, #ffb400, #ffb200);
+        background: -0-linear-gradient(right, #ffb400, #ffb200);
+      }
+      .col-2{
+        background: #ffb400;
+        background: linear-gradient(to right, #ffb400, #ffb200, #ffb200, #ff9000);
+        background: -webkit-linear-gradient(left, #ffb400, #ffb200, #ffb200, #ff9000);
+        background: -moz-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+        background: -ms-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+        background: -0-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+      }
+      .col-3,
+      .col-4{
+        background: #ff9000;
+      }
+    }
+  }
+  .col-1{
+    width: 67px;
+    text-align: center;
 
+  }
+  .col-3{
+    width: 70px;
+    padding-left: 12px;
+    text-align: right;
+  }
+  .col-4{
+    width: 77px;
+    padding-right: 20px;
+    text-align: right;
+  }
+}
 .list-compmode{
   .col-text-right {
     FONT-SIZE: 36PX;
