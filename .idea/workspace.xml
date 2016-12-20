@@ -18,12 +18,11 @@
       <file leaf-file-name="_compmode.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/module/_compmode.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="202" column="0" lean-forward="true" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="479" column="21" lean-forward="false" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
               <folding>
                 <element signature="e#1959#2917#0" expanded="false" />
                 <element signature="e#2932#3112#0" expanded="false" />
-                <element signature="e#3339#3895#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -32,8 +31,8 @@
       <file leaf-file-name="compmode(end).php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compmode(end).php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+            <state relative-caret-position="-72">
+              <caret line="357" column="66" lean-forward="false" selection-start-line="357" selection-start-column="66" selection-end-line="357" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -58,6 +57,7 @@
       <find>col-25</find>
       <find>list-roud</find>
       <find>list</find>
+      <find>.bracket</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482225528066</updated>
-      <workItem from="1482225529531" duration="200000" />
+      <workItem from="1482225529531" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5490000" />
+    <option name="totallyTimeSpent" value="6971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -315,7 +315,6 @@
           <folding>
             <element signature="e#1959#2917#0" expanded="false" />
             <element signature="e#2932#3112#0" expanded="false" />
-            <element signature="e#3339#3895#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,20 +361,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compmode(end).php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+        <state relative-caret-position="-72">
+          <caret line="357" column="66" lean-forward="false" selection-start-line="357" selection-start-column="66" selection-end-line="357" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/module/_compmode.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="202" column="0" lean-forward="true" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="479" column="21" lean-forward="false" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
           <folding>
             <element signature="e#1959#2917#0" expanded="false" />
             <element signature="e#2932#3112#0" expanded="false" />
-            <element signature="e#3339#3895#0" expanded="false" />
           </folding>
         </state>
       </provider>

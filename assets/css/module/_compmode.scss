@@ -462,6 +462,11 @@ table {
 }
 
 .list-center-end{
+  .text-padding-0 {
+    .bracket-text {
+      padding-right: 20px !important;
+    }
+  }
   tr{
     td:last-child{
       padding-right: 0 !important;
@@ -472,6 +477,7 @@ table {
 
 .list-center-end-wrapper {
   margin-left: -120px;
+  margin-right: 20px;
   .list-center-end {
     margin-top: 10px !important;
     .list-round4_wrapper_right {
@@ -503,7 +509,23 @@ table {
     text-align: center !important;
     width: 20% !important;
   }
+  .list-center-end-two, .list-center-end-one{
+    text-align: center;
+  }
+  .list-center-end-one{
+    position: relative;
+    font-size: 24px;
+    img{
+      position: absolute;
+      right: -17%;
+      top: 10%;
+    }
+  }
+  .list-center-end-two{
+    font-size: 12px;
+  }
   .list-center-seconds{
     font-size: 14px;
+    color: #fff;
   }
 }
