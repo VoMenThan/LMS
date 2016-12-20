@@ -93,6 +93,51 @@
   width: 100%;
 }
 // Nam //
+.list-result{
+  td{
+    background: rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+    padding: 0 !important;
+    font-size: 14px;
+    font-family: $main;
+  }
+  .label-col{
+    td{
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0 20px !important;
+    }
+  }
+  .rs{
+    td{
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 24px;
+      font-family: $main-cb;
+      &.col-3{
+        font-size: 14px;
+        font-family: $main;
+      }
+    }
+  }
+  .col-1,
+  .col-5{
+    width: 110px;
+    img{
+      display: block;
+    }
+  }
+  .col-3{
+    text-align: center;
+  }
+  .col-4{
+    text-align: right;
+  }
+  .col-5{
+    text-align: right;
+    img{
+      margin-left: 30px;
+    }
+  }
+}
 // Nam //
 
 
