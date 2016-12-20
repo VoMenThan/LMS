@@ -112,6 +112,12 @@ table{
 }
 
 .list-compmode{
+  .col-text-right {
+    FONT-SIZE: 36PX;
+    COLOR: RGBA(255, 255, 255, 0.4);
+    FONT-STYLE: ITALIC;
+    MARGIN-LEFT: 15PX;
+  }
   .label-col{
     .col-2, .col-3, .col-4{
       text-align: center;
@@ -208,9 +214,71 @@ table{
   }
 }
 
-.list-round4{
-  tr{
-    td{
+.list-round4 {
+  margin-top: 40px !important;
+  .person-bracket{
+  .bracket-number {
+    padding-left: 20px;
+  }
+  }
+  .list-round4_final {
+    .text_final {
+      font-size: 48px;
+      color: #ffa800;
+      font-style: italic;
+      text-align: center;
+    }
+    .text-3rd_final{
+      font-size: 30px;
+    }
+  }
+  .list-round4_wrapper_left {
+    img {
+      float: left;
+    }
+    .list-round4_text {
+      text-align: center;
+      font-size: 36px;
+      padding-left: 20px;
+    }
+    .list-round4_person {
+      font-size: 11px;
+      text-align: center;
+      padding-left: 20px;
+    }
+  }
+  .list-round4_wrapper_center{
+    position: relative;
+      background: url('/lms/assets/images/bg/bg-final.png');
+    background-size: cover;
+    tr{
+      td{
+        padding-left: 0 !important;
+      }
+    }
+
+  }
+  .list-round4_wrapper_right {
+    img {
+      float: right;
+    }
+    .list-round4_text {
+      text-align: center;
+      font-size: 36px;
+      padding-left: 20px;
+    }
+    .list-round4_person {
+      font-size: 11px;
+      text-align: center;
+      padding-left: 20px;
+    }
+    td:last-child {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  tr {
+    td {
       padding-left: 0 !important;
     }
   }
@@ -226,4 +294,62 @@ table{
   margin-bottom: 0 !important;
   padding-bottom: 25px;
   display: block;
+}
+
+.p-r-0{
+  padding-right: 0 !important;
+}
+
+.list-content-result{
+  .col-1, .col-2, .col-3, .col-4 {
+    text-align: left;
+    width: 25%;
+  }
+  .list-content-clb{
+    .clb-one, .clb-two{
+      font-size: 11px;
+    }
+    .clb-two{
+      color: rgba(255,255,255,0.4);
+    }
+  }
+  margin: 20px 0;
+  .list-img-left{
+    float: left;
+  }
+  .list-img-right{
+    float: right;
+  }
+  .person{
+    position: relative;
+    .bracket-number{
+      font-size: 30px;
+    }
+    .cup-list-content{
+      margin-top: -20px;
+    }
+    .cup-right{
+        padding-left: 30px !important;
+        text-align: center;
+    }
+    .number-right{
+      float: right;
+    }
+    .number-left{
+      float: left;
+      margin-top: 7px;
+    }
+    .a{
+      width: 10% !important;
+    }
+  }
+  .col-result{
+    background: rgba(0,0,0,0.2);
+  }
+  tr {
+    td {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
 }
