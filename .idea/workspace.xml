@@ -20,7 +20,7 @@
           <file leaf-file-name="timemode(qual.).php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/timemode(qual.).php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
+                <state relative-caret-position="-1241">
                   <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -245,12 +245,12 @@
       <workItem from="1482212343572" duration="11312000" />
       <workItem from="1482224028188" duration="79000" />
       <workItem from="1482224137752" duration="826000" />
-      <workItem from="1482225295420" duration="75000" />
+      <workItem from="1482225295420" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20318000" />
+    <option name="totallyTimeSpent" value="21067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -378,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timemode(qual.).php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-1241">
           <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
