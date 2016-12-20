@@ -3,7 +3,7 @@
     <div class="container time_content">
         <div class="row">
             <div class="col-25">
-                <table class="list-player">
+                <table class="list-player timemode">
                     <tr class="h60 label-col">
                         <td class="col-1">RACE CLASS</td>
                         <td class="col-2">GROUP</td>
@@ -99,9 +99,7 @@
                     </tr>
                 </table>
             </div>
-        </div>
 
-        <div class="row">
             <div class="col-50">
                 <table class="list-player list-bracket">
                     <tr class="h60 label-col">
@@ -133,46 +131,148 @@
                         </td>
                         <td class="col-image"><div class="img text-right"><img src="assets/images/img/quang.jpg" alt=""></div></td>
                     </tr>
-                    <tr class="h120 person">
-                        <td class="title1">
-                            <ul class="h120">
-                                <li class="code1">AT9</li>
-                                <li class="code2"><img src="assets/images/img/cup.png" alt=""></li>
-                                <li class="code3"><span>8.555</span></li>
-                            </ul>
-                        </td>
-                        <td class="title2" colspan="2">
-                            sdfsd
-                        </td>
-                        <td class="title3">
 
+                </table>
+                <table class="list-player">
+                    <tr class="h120 person box-head">
+                        <td class="title1 f48 text-left">AT9</td>
+                        <td class="title2 f60 text-left">
+                            <img src="assets/images/img/cup.png" alt="">
+                            <span>8.555</span>
                         </td>
+                        <td class="title3 f30 text-center">TT</td>
+                        <td class="title4 f60 text-right">9.789</td>
+                        <td class="title5 f48 text-right">VW7</td>
                     </tr>
                 </table>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-25">
-                <table class="list-player timeline_right">
+                <table class="list-player other-result">
                     <tr class="h60 label-col">
-                        <td class="seeding" colspan="2">SEEDING</td>
+                        <td class="timemode_gray text-right" colspan="9">OTHER RESULT</td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot1" rowspan="3"><img src="assets/images/img/tuan.jpg" alt=""></td>
+                        <td class="cot2 f30" rowspan="2"><img src="assets/images/img/cup.png" alt="">AT9</td>
+                        <td class="cot3 f30 text-center" rowspan="3"><span>8.55</span></td>
+                        <td class="cot4">0.71</td>
+                        <td class="cot5 text-center">RT</td>
+                        <td class="cot6">0.71</td>
+                        <td class="cot7 f30 text-center" rowspan="3">9.78</td>
+                        <td class="cot8 f30" rowspan="2">VW7</td>
+                        <td class="cot9" rowspan="3"><img src="assets/images/img/quang.jpg" alt=""></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot4">9.78</td>
+                        <td class="cot5 text-center">ET</td>
+                        <td class="cot6">9.78</td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot2 f12" >Nguyễn Anh Tuấn</td>
+                        <td class="cot4">326.40</td>
+                        <td class="cot5 text-center">MPH</td>
+                        <td class="cot6">326.40</td>
+                        <td class="cot8 f12">Trần Văn Quang</td>
+                    </tr>
+                    <tr>
+                        <td class="mb-20" colspan="9"></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot1" rowspan="3"><img src="assets/images/img/tuan.jpg" alt=""></td>
+                        <td class="cot2 f30" rowspan="2">AT9</td>
+                        <td class="cot3 f30 text-center" rowspan="3">9.78</td>
+                        <td class="cot4">0.71</td>
+                        <td class="cot5 text-center">RT</td>
+                        <td class="cot6">0.71</td>
+                        <td class="cot7 f30 text-center" rowspan="3"><span>8.55</span></td>
+                        <td class="cot8 f30" rowspan="2">VW7<img src="assets/images/img/cup.png" alt=""></td>
+                        <td class="cot9" rowspan="3"><img src="assets/images/img/quang.jpg" alt=""></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot4">9.78</td>
+                        <td class="cot5 text-center">ET</td>
+                        <td class="cot6">9.78</td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot2 f12" >Nguyễn Anh Tuấn</td>
+                        <td class="cot4">326.40</td>
+                        <td class="cot5 text-center">MPH</td>
+                        <td class="cot6">326.40</td>
+                        <td class="cot8 f12">Trần Văn Quang</td>
+                    </tr>
+                    <tr>
+                        <td class="mb-20" colspan="9"></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot1" rowspan="3"><img src="assets/images/img/tuan.jpg" alt=""></td>
+                        <td class="cot2 f30" rowspan="2"><img src="assets/images/img/cup.png" alt="">AT9</td>
+                        <td class="cot3 f30 text-center" rowspan="3"><span>8.55</span></td>
+                        <td class="cot4">0.71</td>
+                        <td class="cot5 text-center">RT</td>
+                        <td class="cot6">0.71</td>
+                        <td class="cot7 f30 text-center" rowspan="3">9.78</td>
+                        <td class="cot8 f30" rowspan="2">VW7</td>
+                        <td class="cot9" rowspan="3"><img src="assets/images/img/quang.jpg" alt=""></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot4">9.78</td>
+                        <td class="cot5 text-center">ET</td>
+                        <td class="cot6">9.78</td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot2 f12" >Nguyễn Anh Tuấn</td>
+                        <td class="cot4">326.40</td>
+                        <td class="cot5 text-center">MPH</td>
+                        <td class="cot6">326.40</td>
+                        <td class="cot8 f12">Trần Văn Quang</td>
+                    </tr>
+                    <tr>
+                        <td class="mb-20" colspan="9"></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot1" rowspan="3"><img src="assets/images/img/tuan.jpg" alt=""></td>
+                        <td class="cot2 f30" rowspan="2">AT9</td>
+                        <td class="cot3 f30 text-center" rowspan="3">9.78</td>
+                        <td class="cot4">0.71</td>
+                        <td class="cot5 text-center">RT</td>
+                        <td class="cot6">0.71</td>
+                        <td class="cot7 f30 text-center" rowspan="3"><span>8.55</span></td>
+                        <td class="cot8 f30" rowspan="2">VW7 <img src="assets/images/img/cup.png" alt=""></td>
+                        <td class="cot9" rowspan="3"><img src="assets/images/img/quang.jpg" alt=""></td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot4">9.78</td>
+                        <td class="cot5 text-center">ET</td>
+                        <td class="cot6">9.78</td>
+                    </tr>
+                    <tr class="h80 person">
+                        <td class="cot2 f12" >Nguyễn Anh Tuấn</td>
+                        <td class="cot4">326.40</td>
+                        <td class="cot5 text-center">MPH</td>
+                        <td class="cot6">326.40</td>
+                        <td class="cot8 f12">Trần Văn Quang</td>
+                    </tr>
 
-                        <td class="name_title">NAME</td>
-                        <td class=" text-right">BEST RESULT <span class="small">(SECOND)</span></td>
+
+
+                </table>
+            </div>
+
+            <div class="col-25">
+                <table class="list-best-result timemode">
+                    <tr class="h60 label-col">
+                        <td class="col-first" colspan="2">seeding</td>
+                        <td class="col-3">NAME</td>
+                        <td class="col-4">best result<br/>
+                            <span>(second)</span></td>
                     </tr>
-                    <tr class="h60 person">
-                        <td class="stt">1</td>
-                        <td class="">V005</td>
-                        <td class="name">Nguyễn Văn An</td>
-                        <td class="">6.25</td>
-                    </tr>
-                    <tr class="h60 person">
-                        <td class="stt">2</td>
-                        <td class="">V005</td>
-                        <td class="name">Nguyễn Văn An</td>
-                        <td class="">6.25</td>
-                    </tr>
+                    <?php for ($i=1; $i<=16;$i++){ ?>
+                        <tr class="h50 best-per">
+                            <td class="col-1 col-first"><?=$i?></td>
+                            <td class="col-2">V005</td>
+                            <td class="col-3">NGUYEN VAN A</td>
+                            <td class="col-4 col-last">6.25</td>
+                        </tr>
+                    <?php } ?>
                 </table>
             </div>
         </div>

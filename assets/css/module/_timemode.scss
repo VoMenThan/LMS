@@ -10,7 +10,6 @@
       .small{
         font-size: 14px;
       }
-
     }
 
     .person{
@@ -28,13 +27,6 @@
     }
   }
 }
-.text-left{
-  text-align: left;
-}
-.text-right{
-  text-align: right;
-}
-
 .person_active {
   @include bg-gradient-t2b(#ffb400, #ff9000);
  }
@@ -49,6 +41,9 @@
 .col-image{
   padding: 0 !important;
   width: 25%;
+  img{
+    display: block;
+  }
 }
 .box-content{
   width: 50%;
@@ -65,23 +60,12 @@
       color: #ffa800;
     }
   }
+
   .pr-30{
     padding-right: 30px;
   }
-  .h120{
 
-  }
-  .title1, .title3{
-    width: 40%;
-    .code1, .code2, .code3{
-      width: 33.3%;
-      float: left;
-      list-style-type: none;
-    }
-  }
-  .title2{
-    width: 20%;
-  }
+
 }
 .timemode_gray{
   font-size: 36px !important;
@@ -89,10 +73,122 @@
   opacity: 0.2;
   font-style: italic;
 }
+.box-head{
+  .title1,.title5{
+    width: 25%;
+    vertical-align: middle;
+  }
+  .title2,.title4{
+    width: 20%;
+    vertical-align: middle;
+  }
+  .title3{
+    width: 10%;
+    vertical-align: middle;
+  }
+  .title2{
+    position: relative;
+    padding-left: 10px;
+    img{
+      position: absolute;
+      right: 96%;
+      top: 0px;
+    }
+  }
+  .title4{
+    padding-right: 10px;
+  }
+}
 .h120{
   height: 120px;
   width: 100%;
 }
+.f48{
+  font-size: 48px !important;
+}
+.f60{
+  font-size: 60px !important;
+}
+span{
+  color: #ffa800;
+}
+.f30{
+  font-size: 30px;
+}
+.f12{
+  font-size: 12px;
+}
+.f14, .cot4, .cot5, .cot6{
+  font-size: 14px;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right !important;
+}
+.h80{
+  height: 26.67px;
+}
+.other-result{
+  .mb-20{
+    height: 20px;
+  }
+  .cot1 img, .cot9 img{
+    width: 80px;
+    height: 80px;
+    display: block;
+  }
+  .cot9 img{
+    float: right;
+  }
+  .cot1 img{
+    float: left;
+  }
+
+  .cot1, .cot9{
+    padding: 0;
+    clear: both;
+  }
+  .cot4, .cot2{
+    text-align: left !important;
+    padding: 0;
+  }
+  .cot4{
+    padding-left: 20px;
+  }
+  .cot6, .cot8{
+    text-align: right !important;
+    padding: 0;
+  }
+  .cot6{
+    padding-right: 20px;
+  }
+  td{
+    width: 11.11%;
+    vertical-align: middle;
+  }
+  .cot2, .cot8{
+    position: relative;
+  }
+  .h80 .cot2 img, .h80 .cot8 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  .h80 .cot2 img
+  {
+    right: 0px;
+    top: 0px;
+  }
+  .h80 .cot8 img{
+    left: 0px;
+    top: 0px;
+
+  }
+}
+
+
 // Nam //
 .list-result{
   td{
@@ -129,14 +225,14 @@
         padding-left: 15px !important;
         &.cup{
           img{
-            right: -10px;
+            right: -17px;
           }
         }
       }
       &.col-5{
         padding-right: 15px !important;
           img{
-            left: -40px;
+            left: -47px;
           }
       }
       &.cup{
@@ -169,6 +265,121 @@
     }
   }
 }
+
+.list-best-result{
+  background: rgba(255, 255, 255, 0.2);
+  .col-1{
+    width: 50px;
+    text-align: center;
+  }
+  .col-2{
+    width: 138px;
+    text-align: center;
+  }
+  .col-3{}
+  .col-4{
+    text-align: right;
+    line-height:22px;
+    span{
+      font-size: 14px;
+    }
+  }
+  .best-per{
+    font-size: 24px;
+    .col-3{
+      font-size: 14px;
+    }
+  }
+}
+.estimated{
+  background: rgba(255, 255, 255, 0.1);
+  .label-col{
+    .tt-opa{
+      font-size: 30px;
+    }
+  }
+  .box-list-calendar{
+    td{
+      padding: 30px;
+      .item-couple{
+        margin: 7px 0;
+        tr:first-child{
+          .col-1,
+          .col-2{
+            border-bottom: 1px solid #343331;
+          }
+        }
+        .col-1{
+          background: rgba(0, 0, 0, 0.5);
+          font-size: 30px;
+          padding: 0;
+          width: 105px;
+          vertical-align: middle;
+        }
+        .col-2{
+          background: rgba(0, 0, 0, 0.5);
+          font-size: 11px;
+          padding: 0;
+          vertical-align: middle;
+        }
+        .col-3{
+          position: relative;
+          padding: 0;
+          width: 50px;
+          &:after,
+          &:before{
+            content: '';
+            display: block;
+            width: 100%;
+            border-top: 1px solid #fff;
+            position: absolute;
+            left: 0;
+          }
+          &:before{
+            top: 25%;
+          }
+          &:after{
+            top: 75%;
+          }
+        }
+        .col-4{
+          position: relative;
+          text-align: right;
+          vertical-align: middle;
+          padding: 0 !important;
+          width: 70px;
+          img{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            @include translate(0, -50%);
+            z-index: 1;
+          }
+          &:before {
+            content: '';
+            display: block;
+            width: 0;
+            height:50%;
+            position: absolute;
+            top: 25%;
+            left: 0;
+            border-left: 1px solid #fff;
+          }
+          &:after {
+            z-index: 0;
+            content: '';
+            display: block;
+            width: 100%;
+            height:0;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            border-top: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
 // Nam //
-
-
