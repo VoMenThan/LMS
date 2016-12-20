@@ -18,7 +18,7 @@
                     9:05:59
                 </div>
 
-                <div class="label">BINH DUONG DRAG-KING OPENING TOUR 2016</div>
+                <div class="label">LONG AN DRAG-KING OPENING TOUR 2016</div>
 
                 <a href="">
                     <img class="logo" src="assets/images/logo.png" alt="">

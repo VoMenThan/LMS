@@ -109,7 +109,7 @@
                         <tr class="person">
                             <td class="col-1">
                                 <table class="list-player bracket mt-0 clearfix">
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X001</div>
                                         </td>
@@ -117,7 +117,7 @@
                                             <div class="bracket-text">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X016</div>
                                         </td>
@@ -127,7 +127,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X002</div>
                                         </td>
@@ -135,7 +135,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X015</div>
                                         </td>
@@ -145,7 +145,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X003</div>
                                         </td>
@@ -153,7 +153,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X014</div>
                                         </td>
@@ -163,7 +163,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X004</div>
                                         </td>
@@ -171,7 +171,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X013</div>
                                         </td>
@@ -181,7 +181,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X005</div>
                                         </td>
@@ -189,7 +189,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X012</div>
                                         </td>
@@ -199,7 +199,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X006</div>
                                         </td>
@@ -207,7 +207,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X011</div>
                                         </td>
@@ -217,7 +217,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket text-color-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X007</div>
                                         </td>
@@ -225,7 +225,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X010</div>
                                         </td>
@@ -235,7 +235,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket mb-0 clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X008</div>
                                         </td>
@@ -243,7 +243,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X009</div>
                                         </td>
@@ -255,7 +255,7 @@
                             </td>
                             <td class="col-2 bracket-round2">
                                 <table class="list-player bracket mt-0 clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X001</div>
                                         </td>
@@ -263,7 +263,7 @@
                                             <div class="bracket-text text-color-bracket text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X015</div>
                                         </td>
@@ -273,7 +273,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X003</div>
                                         </td>
@@ -281,7 +281,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X013</div>
                                         </td>
@@ -291,7 +291,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X005</div>
                                         </td>
@@ -299,7 +299,7 @@
                                             <div class="bracket-text text-color-bracket text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X011</div>
                                         </td>
@@ -309,7 +309,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket mb-0 learfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X008</div>
                                         </td>
@@ -317,7 +317,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X009</div>
                                         </td>
@@ -329,7 +329,7 @@
                             </td>
                             <td class="col-3 bracket-round3">
                                 <table class="list-player bracket mt-0 clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X001</div>
                                         </td>
@@ -337,7 +337,7 @@
                                             <div class="bracket-text text-color-bracket text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X015</div>
                                         </td>
@@ -347,7 +347,7 @@
                                     </tr>
                                 </table>
                                 <table class="list-player bracket mb-0 clearfix">
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number">X008</div>
                                         </td>
@@ -355,7 +355,7 @@
                                             <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
                                     </tr>
-                                    <tr class="h40 person-bracket">
+                                    <tr class="h40 text-padding-0 person-bracket">
                                         <td>
                                             <div class="bracket-number text-color-bracket">X009</div>
                                         </td>
@@ -419,8 +419,103 @@
                             <td class="col-4">RESULT <span class="list-center-seconds">(SECONDS)</span></td>
                             <td class="col-5">RANK</td>
                         </tr>
-                        <tr class="person">
-
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1 <img src="assets/images/bg/cup-list-content-end-one.png"></td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1 <img src="assets/images/bg/cup-list-content-end-two.png"></td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1 <img src="assets/images/bg/cup-list-content-end-three.png"></td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60 person">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
+                        </tr>
+                        <tr class="h60">
+                            <td class="list-center-end-one">X001</td>
+                            <td class="list-center-end-two">NGUYỄN HOÀNG MINH THỌ</td>
+                            <td class="list-center-end-two">HÙNG TÂY NINH</td>
+                            <td class="list-center-end-one">6.25</td>
+                            <td class="list-center-end-one">1</td>
                         </tr>
                     </table>
                 </div>
