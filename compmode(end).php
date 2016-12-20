@@ -99,7 +99,7 @@
             </div>
             <div class="row">
                 <div class="col-50">
-                    <table class="list-compmode list-bracket list-center">
+                    <table class="list-compmode list-bracket list-center list-center-end">
                         <tr class="h60 label-col">
                             <td class="col-1">ROUND 1</td>
                             <td class="col-2">ROUND 2</td>
@@ -366,54 +366,44 @@
                                 </table>
                             </td>
                             <td class="col-first col-4">
-                                <table class="list-player list-compmode list-round4">
-                                    <tr class="h60 label-col list-round4_wrapper_left">
-                                        <td><img src="assets/images/bg/nguyen_hoang_minh_tho.jpg"></td>
+                                <div class="list-center-end-wrapper">
+                                <table class="list-player list-compmode list-round4 list-center-end">
+                                    <tr class="h60 label-col list-round4_wrapper_right">
+                                        <td class="list-center-end-number">
+                                            <span>1<sup><span class="number-sup"><u>ST</u></span></u></sup></span>
+                                        </td>
                                         <td>
-                                            <div class="list-round4_text">X001</div>
+                                            <div class="list-round4_text">X009</div>
                                             <div class="list-round4_person">NGUYỄN HOÀNG MINH THỌ</div>
                                         </td>
+                                        <td><img src="assets/images/bg/nguyen_hoang_minh_tho.jpg"></td>
                                     </tr>
-                                    <tr class="h60 list-round4_wrapper_center">
-                                        <td colspan="2" class="p-r-0">
-                                            <div class="list-round4_final">
-                                                <div class="text_final"><em>FINAL</em></div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                </table>
+                                <table class="list-player list-compmode list-round4 list-center-end">
                                     <tr class="h60 label-col list-round4_wrapper_right">
+                                        <td class="list-center-end-number">
+                                            <span>2<sup><span class="number-sup"><u>ND</u></span></u></sup></span>
+                                        </td>
                                         <td>
                                             <div class="list-round4_text">X009</div>
                                             <div class="list-round4_person">TRẦN VĂN QUANG</div>
                                         </td>
-                                        <td><img src="assets/images/bg/nguyen_hoang_minh_tho.jpg"></td>
+                                        <td><img src="assets/images/bg/nguyen_van_an_ten.jpg"></td>
                                     </tr>
                                 </table>
-                                <table class="list-player bracket clearfix list-round4">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="bracket-number">X013</div>
+                                <table class="list-player list-compmode list-round4 list-center-end">
+                                    <tr class="h60 label-col list-round4_wrapper_right">
+                                        <td class="list-center-end-number">
+                                            <span>3<sup><span class="number-sup"><u>RD</u></span></u></sup></span>
                                         </td>
                                         <td>
-                                            <div class="bracket-text text-override">TRẦN VĂN QUANG</div>
+                                            <div class="list-round4_text">X009</div>
+                                            <div class="list-round4_person">TRẦN VĂN QUANG</div>
                                         </td>
-                                    </tr>
-                                    <tr class="h40 list-round4_wrapper_center">
-                                        <td colspan="2" class="p-r-0">
-                                            <div class="list-round4_final">
-                                                <div class="text_final text-3rd_final"><em>3<sup>RD</sup> PLACE</em></div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="bracket-number">X009</div>
-                                        </td>
-                                        <td>
-                                            <div class="bracket-text text-override">NGUYỄN HOÀNG MINH THỌ</div>
-                                        </td>
+                                        <td><img src="assets/images/bg/nguyen_van_an_nine.jpg"></td>
                                     </tr>
                                 </table>
+                                </div>
                             </td>
                         </tr>
                     </table>
@@ -421,279 +411,16 @@
             </div>
             <div class="row">
                 <div class="col-25">
-                    <table class="list-compmode list-result">
+                    <table class="list-compmode list-bracket list-center list-center-end-right">
                         <tr class="h60 label-col">
-                            <td class="col-4" colspan="4"><span class="col-text-right right-text-col">UPDATED RESULTS</span></td>
+                            <td class="col-1">ENTRY</td>
+                            <td class="col-2">NAME</td>
+                            <td class="col-3">CLUE</td>
+                            <td class="col-4">RESULT <span class="list-center-seconds">(SECONDS)</span></td>
+                            <td class="col-5">RANK</td>
                         </tr>
-                    </table>
-                    <table class="list-compmode list-content-result list-bracket">
-                        <tr class="h60 col-result">
-                            <td class="col-1">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an.jpg" class="list-img-left">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-2">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="list-content-number">X004</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-3">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket text-right">
-                                        <td>
-                                            <div class="list-content-number">X005</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-4">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_one.jpg" class="list-img-right">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr class="h60 person">
-                            <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
-                            <td class="col-4"></td>
-                        </tr>
-                    </table>
-                    <table class="list-compmode list-content-result list-bracket">
-                        <tr class="h60 col-result">
-                            <td class="col-1">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_two.jpg" class="list-img-left">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-2">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="list-content-number">X004</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-3">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket text-right">
-                                        <td>
-                                            <div class="list-content-number">X005</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-4">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_three.jpg" class="list-img-right">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr class="h60 person">
-                            <td class="col-1"></td>
-                            <td class="col-2"><div class="bracket-number">9.78</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number text-color-bracket number-right">8.26</div></td>
-                            <td class="col-4 cup-right"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                        </tr>
-                    </table>
-                    <table class="list-compmode list-content-result list-bracket">
-                        <tr class="h60 col-result">
-                            <td class="col-1">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_four.jpg" class="list-img-left">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-2">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="list-content-number">X004</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-3">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket text-right">
-                                        <td>
-                                            <div class="list-content-number">X005</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-4">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_five.jpg" class="list-img-right">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr class="h60 person">
-                            <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
-                            <td class="col-4"></td>
-                        </tr>
-                    </table>
-                    <table class="list-compmode list-content-result list-bracket">
-                        <tr class="h60 col-result">
-                            <td class="col-1">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_six.jpg" class="list-img-left">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-2">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="list-content-number">X004</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-3">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket text-right">
-                                        <td>
-                                            <div class="list-content-number">X005</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-4">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_seven.jpg" class="list-img-right">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr class="h60 person">
-                            <td class="col-1"></td>
-                            <td class="col-2"><div class="bracket-number">9.78</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number text-color-bracket number-right">8.26</div></td>
-                            <td class="col-4 cup-right"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                        </tr>
-                    </table>
-                    <table class="list-compmode list-content-result list-bracket">
-                        <tr class="h60 col-result">
-                            <td class="col-1">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_eight.jpg" class="list-img-left">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-2">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <div class="list-content-number">X004</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-3">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket text-right">
-                                        <td>
-                                            <div class="list-content-number">X005</div>
-                                            <div class="list-content-clb">
-                                                <div class="clb-one">NGUYỄN VĂN AN</div>
-                                                <div class="clb-two">CLB THỊNH GÒ VẤP</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td class="col-4">
-                                <table class="bracket clearfix">
-                                    <tr class="h40 person-bracket">
-                                        <td>
-                                            <img src="assets/images/bg/nguyen_van_an_nine.jpg" class="list-img-right">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr class="h60 person">
-                            <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
-                            <td class="col-4"></td>
+                        <tr class="person">
+
                         </tr>
                     </table>
                 </div>
