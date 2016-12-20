@@ -16,14 +16,71 @@
                             <td class="col-3">9:00</td>
                             <td class="col-first col-4">9:11</td>
                         </tr>
+
+                        <?php for($i=2; $i<=9; $i++){ ?>
                         <tr class="h30 break">
                             <td colspan="4" class="text-center">3-minute break</td>
                         </tr>
                         <tr class="h60 person">
-                            <td class="col-1">2</td>
+                            <td class="col-1"><?=$i?></td>
                             <td class="col-2">free practice</td>
                             <td class="col-3">9:00</td>
                             <td class="col-first col-4">9:11</td>
+                        </tr>
+                        <?php } ?>
+                    </table>
+                </div>
+
+                <div class="col-25">
+                    <table class="list-result">
+                        <tr class="h60 label-col">
+                            <td class="col-last" colspan="5"><div class="right tt-opa">other results</div></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1" rowspan="3">
+                                <img src="assets/images/img/w.jpg" alt="">
+                            </td>
+                            <td class="col-2">
+                                0.71
+                            </td>
+                            <td class="col-3">
+                                RT
+                            </td>
+                            <td class="col-4">
+                                0.71
+                            </td>
+                            <td class="col-5" rowspan="3">
+                                <img src="assets/images/img/w.jpg" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-2">
+                                9.87
+                            </td>
+                            <td class="col-3">
+                                ET
+                            </td>
+                            <td class="col-4">
+                                9.87
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-2">
+                                326.40
+                            </td>
+                            <td class="col-3">
+                                MPH
+                            </td>
+                            <td class="col-4">
+                                326.40
+                            </td>
+                        </tr>
+                        <tr class="rs h40">
+                            <td class="col-1">X001</td>
+                            <td class="col-2">9.78</td>
+                            <td class="col-3">TT</td>
+                            <td class="col-4">9.78</td>
+                            <td class="col-5">A001</td>
                         </tr>
                     </table>
                 </div>
