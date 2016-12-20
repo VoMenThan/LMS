@@ -50,6 +50,14 @@
     padding: 0 !important;
     font-size: 14px;
     font-family: $main;
+    &.win{
+      color: $cl-win;
+    }
+  }
+  .pt-20{
+    td{
+      padding-top: 20px !important;
+    }
   }
   .label-col{
     td{
@@ -65,6 +73,28 @@
       &.col-3{
         font-size: 14px;
         font-family: $main;
+      }
+      &.col-1{
+        padding-left: 15px !important;
+        &.cup{
+          img{
+            right: -10px;
+          }
+        }
+      }
+      &.col-5{
+        padding-right: 15px !important;
+          img{
+            left: -40px;
+          }
+      }
+      &.cup{
+        position: relative;
+        img{
+          position: absolute;
+          top: 0;
+          height: 100%;
+        }
       }
     }
   }
