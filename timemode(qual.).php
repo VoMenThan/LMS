@@ -10,8 +10,8 @@
                         <td class="col-3">START</td>
                         <td class="col-first col-4">FINISH</td>
                     </tr>
-                    <tr class="h60 person">
-                        <td class="col-1 hea">UB 115 4T
+                    <tr class="h60 person_heading person_active">
+                        <td class="col-1">UB 115 4T
                             Piston 54mm free</td>
                         <td class="col-2">1</td>
                         <td class="col-3">9:00</td>
@@ -105,21 +105,12 @@
             <div class="col-50">
                 <table class="list-player list-bracket">
                     <tr class="h60 label-col">
-                        <td class="col-1">RACE CLASS</td>
-                        <td class="col-2">ROUND</td>
-                        <td class="col-3">START</td>
-                        <td class="col-first col-4">FINISH</td>
+                        <td class="col-1 text-left" colspan="4">UB 115 4T — PISTON 54MM FREE  — Group c</td>
                     </tr>
                     <tr class="person">
-                        <td class="col-1">
-                            <div class="person-bracket">
-                                <div class="bracket-number">X001</div>
-                                <div class="bracket-text">NGUYỄN HOÀNG MINH THỌ</div>
-                            </div>
-                        </td>
-                        <td class="col-2">1</td>
-                        <td class="col-3">9:00</td>
-                        <td class="col-first col-4">9:10</td>
+                        <td class="col-1"></td>
+                        <td class="col-2" colspan="2"></td>
+                        <td class="col-4">9:10</td>
                     </tr>
                 </table>
             </div>
