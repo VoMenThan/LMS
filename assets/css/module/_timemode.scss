@@ -10,7 +10,6 @@
       .small{
         font-size: 14px;
       }
-
     }
     .person{
       .stt{
@@ -27,13 +26,6 @@
     }
   }
 }
-.text-left{
-  text-align: left;
-}
-.text-right{
-  text-align: right;
-}
-
 .person_active {
   @include bg-gradient-t2b(#ffb400, #ff9000);
  }
@@ -48,6 +40,9 @@
 .col-image{
   padding: 0 !important;
   width: 25%;
+  img{
+    display: block;
+  }
 }
 .box-content{
   width: 50%;
@@ -64,23 +59,12 @@
       color: #ffa800;
     }
   }
+
   .pr-30{
     padding-right: 30px;
   }
-  .h120{
 
-  }
-  .title1, .title3{
-    width: 40%;
-    .code1, .code2, .code3{
-      width: 33.3%;
-      float: left;
-      list-style-type: none;
-    }
-  }
-  .title2{
-    width: 20%;
-  }
+
 }
 .timemode_gray{
   font-size: 36px !important;
@@ -88,10 +72,121 @@
   opacity: 0.2;
   font-style: italic;
 }
+.box-head{
+  .title1,.title5{
+    width: 25%;
+    vertical-align: middle;
+  }
+  .title2,.title4{
+    width: 20%;
+    vertical-align: middle;
+  }
+  .title3{
+    width: 10%;
+    vertical-align: middle;
+  }
+  .title2{
+    position: relative;
+    padding-left: 10px;
+    img{
+      position: absolute;
+      right: 96%;
+      top: 0px;
+    }
+  }
+  .title4{
+    padding-right: 10px;
+  }
+}
 .h120{
   height: 120px;
   width: 100%;
 }
+.f48{
+  font-size: 48px !important;
+}
+.f60{
+  font-size: 60px !important;
+}
+span{
+  color: #ffa800;
+}
+.f30{
+  font-size: 30px;
+}
+.f12{
+  font-size: 12px;
+}
+.f14, .cot4, .cot5, .cot6{
+  font-size: 14px;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right !important;
+}
+.h80{
+  height: 26.67px;
+}
+.other-result{
+  .mb-20{
+    height: 20px;
+  }
+  .cot1 img, .cot9 img{
+    width: 80px;
+    height: 80px;
+    display: block;
+  }
+  .cot9 img{
+    float: right;
+  }
+  .cot1 img{
+    float: left;
+  }
+
+  .cot1, .cot9{
+    padding: 0;
+    clear: both;
+  }
+  .cot4, .cot2{
+    text-align: left !important;
+    padding: 0;
+  }
+  .cot4{
+    padding-left: 20px;
+  }
+  .cot6, .cot8{
+    text-align: right !important;
+    padding: 0;
+  }
+  .cot6{
+    padding-right: 20px;
+  }
+  td{
+    width: 11.11%;
+    vertical-align: middle;
+  }
+  .cot2, .cot8{
+    position: relative;
+  }
+  .h80 .cot2 img, .h80 .cot8 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  .h80 .cot2 img
+  {
+    right: 0px;
+    top: 0px;
+  }
+  .h80 .cot8 img{
+    left: 0px;
+    top: 0px;
+  }
+}
+
+
 // Nam //
 .list-result{
   td{
