@@ -77,7 +77,12 @@ header {
     vertical-align: middle;
   }
 }
-
+.h50{
+  td {
+    height: 50x;
+    vertical-align: middle;
+  }
+}
 .h30 {
   td {
     height: 30px;
@@ -137,6 +142,7 @@ table {
     background: url("../images/bg/ov-w.png");
     font-size: 24px;
     &.active {
+      background: #ffb400;
       .col-1 {
         background: #ffb400;
         background: linear-gradient(to right, #ffb400, #ffb200);
@@ -158,6 +164,17 @@ table {
         background: #ff9000;
       }
     }
+    &.timemode{
+      .col-1{
+        width: 200px;
+        padding-left: 20px;
+        text-align: left;
+        font-size: 20px;
+      }
+      .col-2{
+        text-align: center;
+      }
+    }
   }
   .col-1 {
     width: 67px;
@@ -173,6 +190,17 @@ table {
     padding-right: 20px;
     text-align: right;
   }
+  .break {
+    &.active {
+      background: #ffb400;
+      background: linear-gradient(to right, #ffb400, #ffb200, #ffb200, #ff9000, #ff9000, #ff9000);
+      background: -webkit-linear-gradient(left, #ffb400, #ffb200, #ffb200, #ff9000, #ff9000, #ff9000);
+      background: -moz-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000, #ff9000, #ff9000);
+      background: -ms-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000, #ff9000, #ff9000);
+      background: -0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000, #ff9000, #ff9000);
+    }
+  }
+
 }
 
 .list-compmode {
