@@ -1,0 +1,148 @@
+strong{
+  font-family: $main-b;
+}
+
+body{
+  font-size: 24px;
+  line-height: 1.42;
+  color: #fff;
+  font-family: $main-cb;
+  background: url('../images/bg/bg.jpg') center center;
+  min-height: 100%;
+  text-transform: uppercase;
+}
+.bg-over{
+  position: relative;
+  &:before{
+    content: '';
+    background: #000;
+    opacity: 0.5;
+    @include size(100%);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  .ct{
+    position: relative;
+    z-index: 1;
+  }
+}
+header{
+  @include size(100%, 80px);
+  position: relative;
+  .logo{
+    float: right;
+  }
+  .time{
+    float: left;
+  }
+  .time{
+    font-size: 48px;
+    line-height: 80px;
+    span{
+      float: left;
+      font-size: 36px;
+      margin-right: 20px;
+      font-family: $main-cbi;
+      color: $cl-text;
+    }
+  }
+  .label{
+    font-size: 36px;
+    font-family: $main-cbi;
+    color: $cl-text;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    line-height: 80px;
+    @include translate(-50%, 0);
+  }
+}
+
+.h60{
+  td{
+    height: 60px;
+    vertical-align: middle;
+  }
+}
+.h30{
+  td {
+    height: 30px;
+    vertical-align: middle;
+  }
+}
+table{
+  width:  100%;
+  tr{
+    td{
+      &:first-child{
+        padding-left: 20px;
+      }
+      &:last-child{
+        padding-right: 20px;
+      }
+    }
+  }
+}
+.text-center{
+  text-align: center;
+}
+.col-first{
+  padding-left: 20px;
+}
+.col-last{
+  padding-right: 20px;
+}
+.label-col{
+  background: url("../images/bg/ov.png");
+  font-size: 20px;
+}
+.break{
+  font-size: 18px;
+}
+.wrap-page{
+  margin-top: 50px;
+}
+
+.list-player{
+  .label-col{
+    .col-2, .col-3, .col-4{
+      text-align: center;
+    }
+  }
+  .person{
+    background: url("../images/bg/ov-w.png");
+    font-size: 20px;
+    .col-1{
+      width: 40%;
+      text-align: left;
+    }
+    .col-2, .col-3, .col-4{
+      width: 20%;
+      text-align: center;
+    }
+  }
+  .person {
+    .active {
+        background: #ffb400;
+        background: linear-gradient(to right, #ffb400, #ffb200);
+        background: -webkit-linear-gradient(left, #ffb400, #ffb200);
+        background: -moz-linear-gradient(right, #ffb400, #ffb200);
+        background: -ms-linear-gradient(right, #ffb400, #ffb200);
+        background: -0 -linear-gradient(right, #ffb400, #ffb200);
+    }
+    .person_heading{
+      color: #000;
+    }
+  }
+}
+
+.list-bracket {
+  .label-col {
+    .col-1, .col-2, .col-3, .col-4 {
+      text-align: left;
+      width: 25%;
+    }
+  }
+}

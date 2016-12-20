@@ -1,0 +1,49 @@
+.timemode_qual{
+  .timeline_right {
+    .label-col {
+      .col-1, .col-2, .col-3, .col-4 {
+        width: 25%;
+      }
+      .seeding{
+        padding-left: 30px !important;
+      }
+      .small{
+        font-size: 14px;
+      }
+
+    }
+    .person{
+      .stt{
+        padding-left: 30px;
+        text-align: left;
+      }
+    }
+    .name_title{
+      text-align: center;
+    }
+    .name{
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+.person {
+  .active {
+    background: #ffb400;
+    background: linear-gradient(to right, #ffb400, #ffb200);
+    background: -webkit-linear-gradient(left, #ffb400, #ffb200);
+    background: -moz-linear-gradient(right, #ffb400, #ffb200);
+    background: -ms-linear-gradient(right, #ffb400, #ffb200);
+    background: -0 -linear-gradient(right, #ffb400, #ffb200);
+  }
+  .break_heading{
+    color: #000;
+  }
+}
