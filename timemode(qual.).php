@@ -3,7 +3,7 @@
     <div class="container time_content">
         <div class="row">
             <div class="col-25">
-                <table class="list-player">
+                <table class="list-player timemode">
                     <tr class="h60 label-col">
                         <td class="col-1">RACE CLASS</td>
                         <td class="col-2">GROUP</td>
@@ -99,9 +99,7 @@
                     </tr>
                 </table>
             </div>
-        </div>
 
-        <div class="row">
             <div class="col-50">
                 <table class="list-player list-bracket">
                     <tr class="h60 label-col">
@@ -254,15 +252,28 @@
                         <td class="cot8 f12">Trần Văn Quang</td>
                     </tr>
 
-                    
+
 
                 </table>
             </div>
-        </div>
 
-        <div class="row">
             <div class="col-25">
-
+                <table class="list-best-result timemode">
+                    <tr class="h60 label-col">
+                        <td class="col-first" colspan="2">seeding</td>
+                        <td class="col-3">NAME</td>
+                        <td class="col-4">best result<br/>
+                            <span>(second)</span></td>
+                    </tr>
+                    <?php for ($i=1; $i<=16;$i++){ ?>
+                        <tr class="h50 best-per">
+                            <td class="col-1 col-first"><?=$i?></td>
+                            <td class="col-2">V005</td>
+                            <td class="col-3">NGUYEN VAN A</td>
+                            <td class="col-4 col-last">6.25</td>
+                        </tr>
+                    <?php } ?>
+                </table>
             </div>
         </div>
     </div>
