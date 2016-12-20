@@ -1142,6 +1142,10 @@ header {
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0); }
 
+.h40 td {
+  height: 40px;
+  vertical-align: middle; }
+
 .h60 td {
   height: 60px;
   vertical-align: middle; }
@@ -1187,35 +1191,60 @@ table {
   .list-compmode .person .col-2, .list-compmode .person .col-3, .list-compmode .person .col-4 {
     width: 20%;
     text-align: center; }
-.list-compmode .person .active {
+.list-compmode .break .active {
   background: #ffb400;
   background: linear-gradient(to right, #ffb400, #ffb200);
   background: -webkit-linear-gradient(left, #ffb400, #ffb200);
   background: -moz-linear-gradient(right, #ffb400, #ffb200);
   background: -ms-linear-gradient(right, #ffb400, #ffb200);
   background: 0 -linear-gradient(right, #ffb400, #ffb200); }
-.list-compmode .person .person_heading {
+.list-compmode .break .person_heading {
   color: #000; }
 
 .list-bracket .label-col .col-1, .list-bracket .label-col .col-2, .list-bracket .label-col .col-3, .list-bracket .label-col .col-4 {
   text-align: left;
   width: 25%; }
+.list-bracket .person .col-1, .list-bracket .person .col-2, .list-bracket .person .col-3, .list-bracket .person .col-4 {
+  width: 25%;
+  padding-left: 20px;
+  text-align: left;
+  vertical-align: middle; }
 .list-bracket .person .text-color-bracket {
   color: #ffa800; }
 .list-bracket .person .bracket {
-  margin-top: 25px; }
+  margin: 12px 0; }
   .list-bracket .person .bracket .h40 td {
     height: 40px;
     vertical-align: middle; }
   .list-bracket .person .bracket .person-bracket {
-    background: rgba(0, 0, 0, 0.4);
-    margin-bottom: 2px; }
+    background: rgba(0, 0, 0, 0.4); }
     .list-bracket .person .bracket .person-bracket td {
       width: 50%; }
     .list-bracket .person .bracket .person-bracket .bracket-number {
       font-size: 30px; }
     .list-bracket .person .bracket .person-bracket .bracket-text {
       font-size: 11px; }
+  .list-bracket .person .bracket .person-bracket:first-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.list-center .person .bracket-round2 .bracket {
+  margin: 109px 0; }
+
+.list-center .person .bracket-round3 .bracket {
+  margin: 316px 0; }
+
+.list-round4 tr td {
+  padding-left: 0 !important; }
+
+.mt-0 {
+  margin-top: 0 !important;
+  padding-top: 25px;
+  display: block; }
+
+.mb-0 {
+  margin-bottom: 0 !important;
+  padding-bottom: 25px;
+  display: block; }
 
 .timemode_qual .timeline_right .label-col .col-1, .timemode_qual .timeline_right .label-col .col-2, .timemode_qual .timeline_right .label-col .col-3, .timemode_qual .timeline_right .label-col .col-4 {
   width: 25%; }
