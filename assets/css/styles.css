@@ -1222,14 +1222,18 @@ table {
 .text-right {
   text-align: right; }
 
-.person .active {
-  background: #ffb400;
-  background: linear-gradient(to right, #ffb400, #ffb200);
-  background: -webkit-linear-gradient(left, #ffb400, #ffb200);
-  background: -moz-linear-gradient(right, #ffb400, #ffb200);
-  background: -ms-linear-gradient(right, #ffb400, #ffb200);
-  background: 0 -linear-gradient(right, #ffb400, #ffb200); }
-.person .break_heading {
-  color: #000; }
+.person_active {
+  background-color: #ffb400;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#ff9000));
+  background-image: -webkit-linear-gradient(top, #ffb400, #ff9000);
+  background-image: -moz-linear-gradient(top, #ffb400, #ff9000);
+  background-image: -ms-linear-gradient(top, #ffb400, #ff9000);
+  background-image: -o-linear-gradient(top, #ffb400, #ff9000);
+  background-image: linear-gradient(top, #ffb400, #ff9000);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffb400', end-colourStr='#ff9000'); }
+
+.person_heading {
+  color: #000 !important;
+  font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

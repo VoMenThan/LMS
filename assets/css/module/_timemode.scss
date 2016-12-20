@@ -34,16 +34,15 @@
   text-align: right;
 }
 
-.person {
-  .active {
-    background: #ffb400;
-    background: linear-gradient(to right, #ffb400, #ffb200);
-    background: -webkit-linear-gradient(left, #ffb400, #ffb200);
-    background: -moz-linear-gradient(right, #ffb400, #ffb200);
-    background: -ms-linear-gradient(right, #ffb400, #ffb200);
-    background: -0 -linear-gradient(right, #ffb400, #ffb200);
-  }
-  .break_heading{
-    color: #000;
-  }
+.person_active {
+  @include bg-gradient-t2b(#ffb400, #ff9000);
+ }
+.person_heading{
+  color: #000 !important;
+  font-size: 20px;
 }
+
+// Nam //
+// Nam //
+
+
