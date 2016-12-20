@@ -1236,4 +1236,44 @@ table {
   color: #000 !important;
   font-size: 20px; }
 
+.box-center {
+  width: 100%; }
+
+.col-image {
+  padding: 0 !important;
+  width: 25%; }
+
+.box-content {
+  width: 50%;
+  text-align: center;
+  vertical-align: middle !important; }
+  .box-content .num1, .box-content .num2, .box-content .num3 {
+    width: 33.3%;
+    float: left;
+    list-style-type: none;
+    padding-top: 30px;
+    font-size: 30px; }
+    .box-content .num1 span, .box-content .num2 span, .box-content .num3 span {
+      color: #ffa800; }
+  .box-content .pr-30 {
+    padding-right: 30px; }
+  .box-content .title1, .box-content .title3 {
+    width: 40%; }
+    .box-content .title1 .code1, .box-content .title1 .code2, .box-content .title1 .code3, .box-content .title3 .code1, .box-content .title3 .code2, .box-content .title3 .code3 {
+      width: 33.3%;
+      float: left;
+      list-style-type: none; }
+  .box-content .title2 {
+    width: 20%; }
+
+.timemode_gray {
+  font-size: 36px !important;
+  color: #ffffff;
+  opacity: 0.2;
+  font-style: italic; }
+
+.h120 {
+  height: 120px;
+  width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
