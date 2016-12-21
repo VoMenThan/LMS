@@ -66,12 +66,18 @@ header {
   td {
     height: 60px;
     vertical-align: middle;
+    @include respond-to($break-1440){
+      height: 43px;
+    }
   }
 }
 .h50{
   td {
     height: 50px;
     vertical-align: middle;
+    @include respond-to($break-1440){
+    height: 36px;
+  }
   }
 }
 
