@@ -491,7 +491,7 @@ table {
 .list-center-end{
   .text-padding-0 {
     .bracket-text {
-      padding-right: 20px !important;
+      padding-right: 20px;
     }
   }
   tr{
@@ -556,7 +556,7 @@ table {
     color: #fff;
   }
 }
-@include respond-to($break-1440){
+@include respond-to($break-1440) {
   header {
     .time {
       font-size: 34px;
@@ -576,7 +576,7 @@ table {
     font-size: 14px;
   }
   .list-compmode {
-    .label-col{
+    .label-col {
       .col-1, .col-2, .col-3, .col-4 {
         height: 40px;
       }
@@ -594,25 +594,30 @@ table {
   .break {
     font-size: 12px;
   }
-  .list-bracket{
-    .label-col{
-      .col-1, .col-2, .col-3, .col-4{
+  .list-bracket {
+    .label-col {
+      .col-1, .col-2, .col-3, .col-4 {
         height: 40px;
       }
     }
-    .person{
-      .col-1, .col-2, .col-3, .col-4{
+    .person {
+      .col-1, .col-2, .col-3, .col-4 {
         height: 45px;
       }
-      .bracket{
-      .person-bracket {
-        .bracket-number {
-          font-size: 20px;
-          padding-right: 10px;
+      .bracket {
+        .h40 {
+          td {
+            height: 30px;
+          }
         }
-        .bracket-text {
-          font-size: 7px;
-        }
+        .person-bracket {
+          .bracket-number {
+            font-size: 20px;
+            padding-right: 10px;
+          }
+          .bracket-text {
+            font-size: 7px;
+          }
         }
       }
     }
@@ -623,7 +628,7 @@ table {
         font-size: 24px;
         padding-left: 10px;
       }
-     .list-round4_person {
+      .list-round4_person {
         font-size: 7px;
         padding-left: 10px;
       }
@@ -647,7 +652,7 @@ table {
     .list-round4_final {
       .text_final {
         font-size: 34px;
-        .number-sup{
+        .number-sup {
           margin-right: 20px;
           u {
             font-size: 14px;
@@ -666,12 +671,12 @@ table {
     .list-img-left, .list-img-right {
       width: 60px;
     }
-    .list-content-number{
+    .list-content-number {
       font-size: 20px;
     }
-    .list-content-clb{
-      .clb-one, .clb-two{
-          font-size: 7px;
+    .list-content-clb {
+      .clb-one, .clb-two {
+        font-size: 7px;
       }
     }
     .person {
@@ -694,13 +699,14 @@ table {
     }
   }
   .list-center-end-wrapper {
-    .list-center-end {
-      .list-round4_wrapper_right {
-        .list-center-end-number {
-          font-size: 34px;
-          .number-sup{
-            font-size: 14px;
-          }
+    margin-left: -105px;
+    .list-round4_wrapper_right {
+      .list-center-end-number {
+        font-size: 34px;
+        padding-left: 20px !important;
+        padding-right: 30px !important;
+        .number-sup {
+          font-size: 14px;
         }
       }
     }
@@ -715,14 +721,25 @@ table {
     .list-center-end-one {
       img {
         right: -22%;
-        top: 22%;
+        top: 10%;
         width: 36px;
       }
     }
-    .h60{
+    .h60 {
       td {
-        height: 55px;
+        height: 45px;
       }
     }
   }
-}
+    .wrap-page {
+      margin-top: 35px;
+    }
+    .text-padding-0 {
+      .bracket-text {
+        padding-right: 10px !important;
+      }
+    }
+    table tr td:last-child {
+      padding-right: 3px;
+    }
+  }

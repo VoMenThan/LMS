@@ -1435,7 +1435,7 @@ table {
     padding-right: 0 !important; }
 
 .list-center-end .text-padding-0 .bracket-text {
-  padding-right: 20px !important; }
+  padding-right: 20px; }
 .list-center-end tr td:last-child {
   padding-right: 0 !important; }
 
@@ -1509,6 +1509,8 @@ table {
     height: 40px; }
   .list-bracket .person .col-1, .list-bracket .person .col-2, .list-bracket .person .col-3, .list-bracket .person .col-4 {
     height: 45px; }
+  .list-bracket .person .bracket .h40 td {
+    height: 30px; }
   .list-bracket .person .bracket .person-bracket .bracket-number {
     font-size: 20px;
     padding-right: 10px; }
@@ -1559,10 +1561,14 @@ table {
   .bg-over:before {
     height: 90%; }
 
-  .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number {
-    font-size: 34px; }
-    .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number .number-sup {
-      font-size: 14px; }
+  .list-center-end-wrapper {
+    margin-left: -105px; }
+    .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number {
+      font-size: 34px;
+      padding-left: 20px !important;
+      padding-right: 30px !important; }
+      .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number .number-sup {
+        font-size: 14px; }
 
   .list-center-end-right .list-center-end-one {
     font-size: 16px; }
@@ -1570,10 +1576,19 @@ table {
     font-size: 7px; }
   .list-center-end-right .list-center-end-one img {
     right: -22%;
-    top: 22%;
+    top: 10%;
     width: 36px; }
   .list-center-end-right .h60 td {
-    height: 55px; } }
+    height: 45px; }
+
+  .wrap-page {
+    margin-top: 35px; }
+
+  .text-padding-0 .bracket-text {
+    padding-right: 10px !important; }
+
+  table tr td:last-child {
+    padding-right: 3px; } }
 .box-center {
   width: 100%; }
 
