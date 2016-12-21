@@ -562,13 +562,18 @@ table {
     }
     .logo {
       width: 105px;
-      padding-top: 40px;
+      padding-top: 25px;
     }
   }
   .label-col {
     font-size: 14px;
   }
   .list-compmode {
+    .label-col{
+      .col-1, .col-2, .col-3, .col-4 {
+        height: 40px;
+      }
+    }
     .person {
       font-size: 14px;
     }
@@ -576,14 +581,22 @@ table {
       font-size: 24px;
       position: absolute;
       right: 10px;
-      top: 10px;
+      top: 3px;
     }
   }
   .break {
     font-size: 12px;
   }
   .list-bracket{
+    .label-col{
+      .col-1, .col-2, .col-3, .col-4{
+        height: 40px;
+      }
+    }
     .person{
+      .col-1, .col-2, .col-3, .col-4{
+        height: 45px;
+      }
       .bracket{
       .person-bracket {
         .bracket-number {
@@ -656,7 +669,7 @@ table {
     }
     .person {
       .cup-list-content {
-        margin-top: -40px;
+        margin-top: -10px;
         width: 44px;
         margin-left: 10px;
       }
@@ -665,6 +678,50 @@ table {
       }
       .cup-right {
         padding-left: 0 !important;
+      }
+    }
+  }
+  .bg-over {
+    &:before {
+      height: 90%;
+    }
+  }
+  .list-center-end-wrapper {
+    .list-center-end {
+      .list-round4_wrapper_right {
+        .list-center-end-number {
+          font-size: 34px;
+          .number-sup{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .list-center-end-right {
+    .list-center-end-one {
+      font-size: 16px;
+    }
+    .list-center-end-two {
+      font-size: 7px;
+    }
+    .list-center-end-one {
+      img {
+        right: -22%;
+        top: 22%;
+        width: 36px;
+      }
+    }
+    .h60{
+      td {
+        height: 55px;
+      }
+    }
+  }
+  table {
+    tr {
+      td:last-child {
+        padding-right: 10px !important;
       }
     }
   }
