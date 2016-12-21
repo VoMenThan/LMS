@@ -400,8 +400,8 @@
                                     </tr>
                                     <tr class="h40 list-round4_wrapper_center">
                                         <td colspan="2" class="p-r-0">
-                                            <div class="list-round4_final">
-                                                <div class="text_final text-3rd_final"><em>3<sup>RD</sup> PLACE</em></div>
+                                            <div class="list-round4_final list-round4_final_1440">
+                                                <div class="text_final text-3rd_final"><em>3<sup><span class="number-sup"><u>RD</u></span></sup> PLACE</em></div>
                                             </div>
                                         </td>
                                     </tr>
