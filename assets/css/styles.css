@@ -1157,7 +1157,7 @@ header {
   vertical-align: middle; }
   @media only screen and (max-width: 1440px) {
     .h50 td {
-      height: 36px; } }
+      height: 34px; } }
 
 .h40 td {
   height: 40px;
@@ -1215,17 +1215,20 @@ table {
       background: -webkit-linear-gradient(left, #ffb400, #ffb200);
       background: -moz-linear-gradient(right, #ffb400, #ffb200);
       background: -ms-linear-gradient(right, #ffb400, #ffb200);
-      background: 0 -linear-gradient(right, #ffb400, #ffb200); }
+      background: 0 -linear-gradient(right, #ffb400, #ffb200);
+      color: #000; }
     .list-player .person.active .col-2 {
       background: #ffb400;
       background: linear-gradient(to right, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -webkit-linear-gradient(left, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -moz-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -ms-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
-      background: 0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000); }
+      background: 0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+      color: #000; }
     .list-player .person.active .col-3,
     .list-player .person.active .col-4 {
-      background: #ff9000; }
+      background: #ff9000;
+      color: #000; }
 .list-player.timemode .col-1 {
   width: 200px;
   padding-left: 20px;
@@ -1481,7 +1484,7 @@ table {
     font-size: 24px; }
   header .logo {
     width: 105px;
-    padding-top: 25px; }
+    padding-top: 15px; }
 
   .label-col {
     font-size: 14px; }
@@ -1503,8 +1506,6 @@ table {
     height: 40px; }
   .list-bracket .person .col-1, .list-bracket .person .col-2, .list-bracket .person .col-3, .list-bracket .person .col-4 {
     height: 45px; }
-  .list-bracket .person .bracket .h40 td {
-    height: 30px; }
   .list-bracket .person .bracket .person-bracket .bracket-number {
     font-size: 20px;
     padding-right: 10px; }
@@ -1555,12 +1556,19 @@ table {
   .bg-over:before {
     height: 90%; }
 
+<<<<<<< HEAD
   .list-center-end-wrapper {
     margin-left: -105px; }
     .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number {
       font-size: 34px; }
       .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number .number-sup {
         font-size: 14px; }
+=======
+  .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number {
+    font-size: 34px; }
+    .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number .number-sup {
+      font-size: 14px; }
+>>>>>>> 1541e1e5922b10e65a312b42f8ba238ed2fca9c7
 
   .list-center-end-right .list-center-end-one {
     font-size: 16px; }
@@ -1568,9 +1576,10 @@ table {
     font-size: 7px; }
   .list-center-end-right .list-center-end-one img {
     right: -22%;
-    top: 10%;
+    top: 22%;
     width: 36px; }
   .list-center-end-right .h60 td {
+<<<<<<< HEAD
     height: 45px; }
 
   .wrap-page {
@@ -1595,6 +1604,9 @@ table {
   color: #000 !important;
   font-size: 20px; }
 
+=======
+    height: 55px; } }
+>>>>>>> 1541e1e5922b10e65a312b42f8ba238ed2fca9c7
 .box-center {
   width: 100%; }
 
@@ -1900,17 +1912,17 @@ table {
     padding-right: 20px; }
 
   .h80 {
-    height: 20px; }
+    height: 15px; }
 
   .other-result .cot1 img, .other-result .cot9 img {
-    width: 58px; }
+    width: 50px; }
 
   .other-result .h80 .cot2 img, .other-result .h80 .cot8 img {
     width: 35px;
     right: -9px; }
 
   .other-result .mb-20 {
-    height: 14px; }
+    height: 13px; }
 
   .label-col {
     font-size: 15px; }
@@ -1921,8 +1933,10 @@ table {
       font-size: 10px; }
   .list-best-result .col-2 {
     width: 60px; }
-  .list-best-result .col-4 span {
-    font-size: 10px; }
+  .list-best-result .col-4 {
+    line-height: 15px; }
+    .list-best-result .col-4 span {
+      font-size: 10px; }
 
   .col-first {
     padding-left: 0; }
@@ -1931,6 +1945,16 @@ table {
     padding-left: 0; }
 
   .list-player .person {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .wrap-page {
+    margin-top: 30px; }
+
+  header {
+    height: 60px; }
+    header .label {
+      line-height: 60px; }
+    header .time {
+      line-height: 60px; } }
 
 /*# sourceMappingURL=styles.css.map */
