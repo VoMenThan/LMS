@@ -598,6 +598,11 @@ table {
         height: 45px;
       }
       .bracket{
+        .h40 {
+          td {
+            height: 30px;
+          }
+        }
       .person-bracket {
         .bracket-number {
           font-size: 20px;
@@ -687,6 +692,7 @@ table {
     }
   }
   .list-center-end-wrapper {
+      margin-left: -105px;
     .list-center-end {
       .list-round4_wrapper_right {
         .list-center-end-number {
@@ -714,14 +720,7 @@ table {
     }
     .h60{
       td {
-        height: 55px;
-      }
-    }
-  }
-  table {
-    tr {
-      td:last-child {
-        padding-right: 10px !important;
+        height: 45px;
       }
     }
   }
