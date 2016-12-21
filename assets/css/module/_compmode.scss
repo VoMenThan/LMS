@@ -85,6 +85,10 @@ header {
   td {
     height: 40px;
     vertical-align: middle;
+    @include respond-to($break-1440)
+    {
+      height: 25px;
+    }
   }
 }
 .h30 {

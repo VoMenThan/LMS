@@ -1162,6 +1162,9 @@ header {
 .h40 td {
   height: 40px;
   vertical-align: middle; }
+  @media only screen and (max-width: 1440px) {
+    .h40 td {
+      height: 25px; } }
 
 .h30 td {
   height: 30px;
@@ -1836,9 +1839,9 @@ table {
           border-top: 1px solid #fff; }
 
 @media only screen and (max-width: 1440px) {
-  .timemode_qual .list-player .name-col-1 {
+  .list-player .name-col-1 {
     font-size: 17px; }
-  .timemode_qual .list-player .col-image img {
+  .list-player .col-image img {
     width: 170px; }
 
   .box-content .num1, .box-content .num2, .box-content .num3 {
@@ -1919,6 +1922,54 @@ table {
     header .label {
       line-height: 60px; }
     header .time {
-      line-height: 60px; } }
+      line-height: 60px; }
+
+  .estimated .label-col {
+    line-height: 40px; }
+    .estimated .label-col .tt-opa {
+      font-size: 21px; }
+
+  .estimated .box-list-calendar td .item-couple .col-1 {
+    font-size: 21px; }
+  .estimated .box-list-calendar td .item-couple .col-2 {
+    font-size: 8px; }
+  .estimated .box-list-calendar td {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .estimated .box-list-calendar td .item-couple {
+      margin: 5px 0; }
+      .estimated .box-list-calendar td .item-couple .col-1 {
+        width: 76px;
+        padding-left: 15px; }
+      .estimated .box-list-calendar td .item-couple tr:first-child .col-1 {
+        width: 110px; }
+      .estimated .box-list-calendar td .item-couple tr:first-child .col-2 {
+        width: 110px; }
+
+  .label-col .tt-opa {
+    font-size: 25px; }
+
+  .list-result .pt-20 td {
+    padding-top: 8px !important; }
+  .list-result .col-1 {
+    width: 75px; }
+  .list-result .col-5 {
+    width: 75px; }
+  .list-result .col-1 img {
+    width: 58px; }
+  .list-result .col-5 img {
+    width: 58px;
+    float: right;
+    margin-left: 20px; }
+  .list-result td {
+    font-size: 10px; }
+  .list-result .rs td {
+    font-size: 17px; }
+  .list-result .rs td.col-5 img {
+    left: -33px; }
+
+  .pt-20 td {
+    padding-top: 20px !important; } }
 
 /*# sourceMappingURL=styles.css.map */
