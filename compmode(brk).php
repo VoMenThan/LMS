@@ -106,7 +106,7 @@
                         </tr>
                         <tr class="person">
                             <td class="col-1">
-                                <table class="list-player bracket mt-0 clearfix">
+                                <table class="list-player text-padding-0 bracket mt-0 clearfix">
                                     <tr class="h40 person-bracket text-color-bracket">
                                         <td>
                                             <div class="bracket-number">X001</div>

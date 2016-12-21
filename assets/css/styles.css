@@ -1429,7 +1429,7 @@ table {
     padding-right: 0 !important; }
 
 .list-center-end .text-padding-0 .bracket-text {
-  padding-right: 20px !important; }
+  padding-right: 20px; }
 .list-center-end tr td:last-child {
   padding-right: 0 !important; }
 
@@ -1557,9 +1557,9 @@ table {
 
   .list-center-end-wrapper {
     margin-left: -105px; }
-    .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number {
+    .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number {
       font-size: 34px; }
-      .list-center-end-wrapper .list-center-end .list-round4_wrapper_right .list-center-end-number .number-sup {
+      .list-center-end-wrapper .list-round4_wrapper_right .list-center-end-number .number-sup {
         font-size: 14px; }
 
   .list-center-end-right .list-center-end-one {
@@ -1574,7 +1574,13 @@ table {
     height: 45px; }
 
   .wrap-page {
-    margin-top: 35px; } }
+    margin-top: 35px; }
+
+  .text-padding-0 .bracket-text {
+    padding-right: 10px !important; }
+
+  table tr td:last-child {
+    padding-right: 3px; } }
 .person_active {
   background-color: #ffb400;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#ff9000));
