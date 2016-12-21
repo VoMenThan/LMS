@@ -600,7 +600,6 @@ table {
       .col-1, .col-2, .col-3, .col-4 {
         height: 45px;
       }
-<<<<<<< HEAD
       .bracket {
         .h40 {
           td {
@@ -615,17 +614,6 @@ table {
           .bracket-text {
             font-size: 7px;
           }
-=======
-      .bracket{
-      .person-bracket {
-        .bracket-number {
-          font-size: 20px;
-          padding-right: 10px;
-        }
-        .bracket-text {
-          font-size: 7px;
-        }
->>>>>>> 1541e1e5922b10e65a312b42f8ba238ed2fca9c7
         }
       }
     }
@@ -707,22 +695,14 @@ table {
     }
   }
   .list-center-end-wrapper {
-<<<<<<< HEAD
     margin-left: -105px;
     .list-round4_wrapper_right {
       .list-center-end-number {
         font-size: 34px;
+        padding-left: 20px !important;
+        padding-right: 30px !important;
         .number-sup {
           font-size: 14px;
-=======
-    .list-center-end {
-      .list-round4_wrapper_right {
-        .list-center-end-number {
-          font-size: 34px;
-          .number-sup{
-            font-size: 14px;
-          }
->>>>>>> 1541e1e5922b10e65a312b42f8ba238ed2fca9c7
         }
       }
     }
@@ -737,28 +717,25 @@ table {
     .list-center-end-one {
       img {
         right: -22%;
-        top: 22%;
+        top: 10%;
         width: 36px;
       }
     }
     .h60 {
       td {
-        height: 55px;
+        height: 45px;
       }
     }
   }
-<<<<<<< HEAD
-  .wrap-page {
-    margin-top: 35px;
-  }
-  .text-padding-0 {
-    .bracket-text {
-      padding-right: 10px !important;
+    .wrap-page {
+      margin-top: 35px;
+    }
+    .text-padding-0 {
+      .bracket-text {
+        padding-right: 10px !important;
+      }
+    }
+    table tr td:last-child {
+      padding-right: 3px;
     }
   }
-  table tr td:last-child {
-    padding-right: 3px;
-  }
-=======
->>>>>>> 1541e1e5922b10e65a312b42f8ba238ed2fca9c7
-}
