@@ -1164,6 +1164,9 @@ header {
 .h30 td {
   height: 30px;
   vertical-align: middle; }
+  @media only screen and (max-width: 1440px) {
+    .h30 td {
+      height: 20px; } }
 
 table {
   width: 100%; }
@@ -1226,6 +1229,9 @@ table {
   padding-left: 20px;
   text-align: left;
   font-size: 20px; }
+  @media only screen and (max-width: 1440px) {
+    .list-player.timemode .col-1 {
+      font-size: 14px; } }
 .list-player.timemode .col-2 {
   text-align: center; }
 .list-player .col-1 {
@@ -1813,7 +1819,7 @@ table {
           border-top: 1px solid #fff; }
 
 @media only screen and (max-width: 1440px) {
-  .timemode_qual .list-player .col-1 {
+  .timemode_qual .list-player name-col-1 {
     font-size: 17px; }
   .timemode_qual .list-player .col-image img {
     width: 170px; }
@@ -1833,9 +1839,6 @@ table {
 
   .h120 {
     height: 88px; }
-
-  .list-player .person {
-    font-size: 21px; }
 
   .f60 {
     font-size: 42px; }
@@ -1878,6 +1881,12 @@ table {
   .list-best-result .col-2 {
     width: 60px; }
   .list-best-result .col-4 span {
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  .col-first {
+    padding-left: 0; }
+
+  .list-player .col-3 {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

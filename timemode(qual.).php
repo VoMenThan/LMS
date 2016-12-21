@@ -103,7 +103,7 @@
             <div class="col-50">
                 <table class="list-player list-bracket">
                     <tr class="h60 label-col">
-                        <td class="col-1 text-left" colspan="3">UB 115 4T — PISTON 54MM FREE  — Group c</td>
+                        <td class="col-1 text-left name-col-1" colspan="3">UB 115 4T — PISTON 54MM FREE  — Group c</td>
                         <td class="text-right"><span class="timemode_gray">TIME MODE</span></td>
                     </tr>
                     <tr class="box-center">
