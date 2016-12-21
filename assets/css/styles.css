@@ -1587,8 +1587,13 @@ table {
   .text-padding-0 .bracket-text {
     padding-right: 10px !important; }
 
-  table tr td:last-child {
-    padding-right: 3px; } }
+  .list-center td:last-child {
+    padding-right: 3px; }
+
+  .list-center .person .bracket-round2 .bracket {
+    margin: 85px 0; }
+  .list-center .person .bracket-round3 .bracket {
+    margin: 235px 0; } }
 .box-center {
   width: 100%; }
 
