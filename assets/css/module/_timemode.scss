@@ -369,7 +369,7 @@
 @include respond-to($break-1440){
   .timemode_qual {
     .list-player{
-      .col-1{
+      .name-col-1{
         font-size: 17px;
       }
       .col-image{
@@ -398,11 +398,6 @@
   }
   .h120{
     height: 88px;
-  }
-  .list-player {
-    .person {
-      font-size: 21px;
-    }
   }
   .f60{
     font-size: 42px;
@@ -472,7 +467,18 @@
         font-size: 10px;
       }
     }
-
-
+  }
+  .col-first {
+    padding-left: 0;
+  }
+  .list-player {
+    .col-3 {
+      padding-left: 0;
+    }
+  }
+  .list-player {
+    .person{
+      font-size: 14px;
+    }
   }
 }

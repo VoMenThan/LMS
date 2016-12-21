@@ -67,7 +67,7 @@ header {
     height: 60px;
     vertical-align: middle;
     @include respond-to($break-1440){
-      height: 43px;
+      height: 40px;
     }
   }
 }
@@ -91,6 +91,10 @@ header {
   td {
     height: 30px;
     vertical-align: middle;
+    @include respond-to($break-1440)
+    {
+      height: 20px;
+    }
   }
 }
 
@@ -177,6 +181,11 @@ table {
         padding-left: 20px;
         text-align: left;
         font-size: 20px;
+        @include respond-to($break-1440){
+          font-size: 14px;
+          line-height: 1.2;
+        }
+
       }
       .col-2{
         text-align: center;
