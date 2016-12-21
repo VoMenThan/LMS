@@ -445,23 +445,33 @@
   }
   .label-col{
     font-size: 15px;
+    td{
+      text-align: center;
+    }
   }
   .list-best-result {
     .best-per {
       font-size: 17px;
       .col-3{
         font-size: 10px;
+        padding-left: 25px;
       }
     }
     .col-2{
       width: 60px;
+      padding-right: 15px;
     }
     .col-4{
       line-height: 15px;
+      padding-right: 15px;
       span{
         font-size: 10px;
       }
     }
+    .col-1{
+      text-align: left;
+    }
+
   }
   .col-first {
     padding-left: 0;
