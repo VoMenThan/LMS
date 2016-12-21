@@ -96,8 +96,6 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-50">
                     <table class="list-compmode list-bracket list-center">
                         <tr class="h60 label-col">
@@ -418,8 +416,6 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-25">
                     <table class="list-compmode list-result">
                         <tr class="h60 label-col">
@@ -475,8 +471,12 @@
                         </tr>
                         <tr class="h60 person">
                             <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
+                            <td class="col-2">
+                                <div class="bracket-number text-color-bracket">8.26</div>
+                            </td>
+                            <td class="col-3 a"><span class="number-left">TT</span>
+                                <div class="bracket-number number-right">9.78</div>
+                            </td>
                             <td class="col-4"></td>
                         </tr>
                     </table>
@@ -529,8 +529,12 @@
                         </tr>
                         <tr class="h60 person">
                             <td class="col-1"></td>
-                            <td class="col-2"><div class="bracket-number">9.78</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number text-color-bracket number-right">8.26</div></td>
+                            <td class="col-2">
+                                <div class="bracket-number">9.78</div>
+                            </td>
+                            <td class="col-3 a"><span class="number-left">TT</span>
+                                <div class="bracket-number text-color-bracket number-right">8.26</div>
+                            </td>
                             <td class="col-4 cup-right"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
                         </tr>
                     </table>
@@ -583,8 +587,12 @@
                         </tr>
                         <tr class="h60 person">
                             <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
+                            <td class="col-2">
+                                <div class="bracket-number text-color-bracket">8.26</div>
+                            </td>
+                            <td class="col-3 a"><span class="number-left">TT</span>
+                                <div class="bracket-number number-right">9.78</div>
+                            </td>
                             <td class="col-4"></td>
                         </tr>
                     </table>
@@ -637,8 +645,12 @@
                         </tr>
                         <tr class="h60 person">
                             <td class="col-1"></td>
-                            <td class="col-2"><div class="bracket-number">9.78</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number text-color-bracket number-right">8.26</div></td>
+                            <td class="col-2">
+                                <div class="bracket-number">9.78</div>
+                            </td>
+                            <td class="col-3 a"><span class="number-left">TT</span>
+                                <div class="bracket-number text-color-bracket number-right">8.26</div>
+                            </td>
                             <td class="col-4 cup-right"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
                         </tr>
                     </table>
@@ -691,8 +703,12 @@
                         </tr>
                         <tr class="h60 person">
                             <td class="col-1"><img src="assets/images/bg/cup-list-content.png" class="cup-list-content"></td>
-                            <td class="col-2"><div class="bracket-number text-color-bracket">8.26</div></td>
-                            <td class="col-3 a"><span class="number-left">TT</span><div class="bracket-number number-right">9.78</div></td>
+                            <td class="col-2">
+                                <div class="bracket-number text-color-bracket">8.26</div>
+                            </td>
+                            <td class="col-3 a"><span class="number-left">TT</span>
+                                <div class="bracket-number number-right">9.78</div>
+                            </td>
                             <td class="col-4"></td>
                         </tr>
                     </table>

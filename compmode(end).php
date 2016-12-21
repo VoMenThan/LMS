@@ -96,8 +96,6 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-50">
                     <table class="list-compmode list-bracket list-center list-center-end">
                         <tr class="h60 label-col">
@@ -367,49 +365,47 @@
                             </td>
                             <td class="col-first col-4">
                                 <div class="list-center-end-wrapper">
-                                <table class="list-player list-compmode list-round4 list-center-end">
-                                    <tr class="h60 label-col list-round4_wrapper_right">
-                                        <td class="list-center-end-number">
-                                            <span>1<sup><span class="number-sup"><u>ST</u></span></u></sup></span>
-                                        </td>
-                                        <td>
-                                            <div class="list-round4_text">X009</div>
-                                            <div class="list-round4_person">NGUYỄN HOÀNG MINH THỌ</div>
-                                        </td>
-                                        <td><img src="assets/images/bg/nguyen_hoang_minh_tho.jpg"></td>
-                                    </tr>
-                                </table>
-                                <table class="list-player list-compmode list-round4 list-center-end">
-                                    <tr class="h60 label-col list-round4_wrapper_right">
-                                        <td class="list-center-end-number">
-                                            <span>2<sup><span class="number-sup"><u>ND</u></span></u></sup></span>
-                                        </td>
-                                        <td>
-                                            <div class="list-round4_text">X009</div>
-                                            <div class="list-round4_person">TRẦN VĂN QUANG</div>
-                                        </td>
-                                        <td><img src="assets/images/bg/nguyen_van_an_ten.jpg"></td>
-                                    </tr>
-                                </table>
-                                <table class="list-player list-compmode list-round4 list-center-end">
-                                    <tr class="h60 label-col list-round4_wrapper_right">
-                                        <td class="list-center-end-number">
-                                            <span>3<sup><span class="number-sup"><u>RD</u></span></u></sup></span>
-                                        </td>
-                                        <td>
-                                            <div class="list-round4_text">X009</div>
-                                            <div class="list-round4_person">TRẦN VĂN QUANG</div>
-                                        </td>
-                                        <td><img src="assets/images/bg/nguyen_van_an_nine.jpg"></td>
-                                    </tr>
-                                </table>
+                                    <table class="list-player list-compmode list-round4 list-center-end">
+                                        <tr class="h60 label-col list-round4_wrapper_right">
+                                            <td class="list-center-end-number">
+                                                <span>1<sup><span class="number-sup"><u>ST</u></span></u></sup></span>
+                                            </td>
+                                            <td>
+                                                <div class="list-round4_text">X009</div>
+                                                <div class="list-round4_person">NGUYỄN HOÀNG MINH THỌ</div>
+                                            </td>
+                                            <td><img src="assets/images/bg/nguyen_hoang_minh_tho.jpg"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="list-player list-compmode list-round4 list-center-end">
+                                        <tr class="h60 label-col list-round4_wrapper_right">
+                                            <td class="list-center-end-number">
+                                                <span>2<sup><span class="number-sup"><u>ND</u></span></u></sup></span>
+                                            </td>
+                                            <td>
+                                                <div class="list-round4_text">X009</div>
+                                                <div class="list-round4_person">TRẦN VĂN QUANG</div>
+                                            </td>
+                                            <td><img src="assets/images/bg/nguyen_van_an_ten.jpg"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="list-player list-compmode list-round4 list-center-end">
+                                        <tr class="h60 label-col list-round4_wrapper_right">
+                                            <td class="list-center-end-number">
+                                                <span>3<sup><span class="number-sup"><u>RD</u></span></u></sup></span>
+                                            </td>
+                                            <td>
+                                                <div class="list-round4_text">X009</div>
+                                                <div class="list-round4_person">TRẦN VĂN QUANG</div>
+                                            </td>
+                                            <td><img src="assets/images/bg/nguyen_van_an_nine.jpg"></td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </td>
                         </tr>
                     </table>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-25">
                     <table class="list-compmode list-bracket list-center list-center-end-right">
                         <tr class="h60 label-col">
