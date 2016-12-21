@@ -67,7 +67,7 @@ header {
     height: 60px;
     vertical-align: middle;
     @include respond-to($break-1440){
-      height: 43px;
+      height: 40px;
     }
   }
 }
@@ -183,6 +183,7 @@ table {
         font-size: 20px;
         @include respond-to($break-1440){
           font-size: 14px;
+          line-height: 1.2;
         }
 
       }
