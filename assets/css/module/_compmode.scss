@@ -76,7 +76,7 @@ header {
     height: 50px;
     vertical-align: middle;
     @include respond-to($break-1440){
-    height: 36px;
+    height: 34px;
   }
   }
 }
@@ -160,6 +160,7 @@ table {
         background: -moz-linear-gradient(right, #ffb400, #ffb200);
         background: -ms-linear-gradient(right, #ffb400, #ffb200);
         background: -0 -linear-gradient(right, #ffb400, #ffb200);
+        color: #000;
       }
       .col-2 {
         background: #ffb400;
@@ -168,10 +169,12 @@ table {
         background: -moz-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
         background: -ms-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
         background: -0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+        color: #000;
       }
       .col-3,
       .col-4 {
         background: #ff9000;
+        color: #000;
       }
     }
   }
@@ -562,7 +565,7 @@ table {
     }
     .logo {
       width: 105px;
-      padding-top: 25px;
+      padding-top: 15px;
     }
   }
   .label-col {
@@ -715,13 +718,6 @@ table {
     .h60{
       td {
         height: 55px;
-      }
-    }
-  }
-  table {
-    tr {
-      td:last-child {
-        padding-right: 10px !important;
       }
     }
   }

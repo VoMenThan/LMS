@@ -1,10 +1,5 @@
-.person_active {
-  @include bg-gradient-t2b(#ffb400, #ff9000);
- }
-.person_heading{
-  color: #000 !important;
-  font-size: 20px;
-}
+
+
 .box-center{
   width: 100%;
 
@@ -425,12 +420,12 @@
     }
   }
   .h80{
-    height: 20px;
+    height: 15px;
   }
   .other-result{
     .cot1, .cot9{
       img{
-        width: 58px;
+        width: 50px;
       }
     }
   }
@@ -446,7 +441,7 @@
   }
   .other-result{
     .mb-20{
-      height: 14px;
+      height: 13px;
     }
   }
   .label-col{
@@ -463,6 +458,7 @@
       width: 60px;
     }
     .col-4{
+      line-height: 15px;
       span{
         font-size: 10px;
       }
@@ -479,6 +475,18 @@
   .list-player {
     .person{
       font-size: 14px;
+    }
+  }
+  .wrap-page{
+    margin-top: 30px;
+  }
+  header{
+    height: 60px;
+    .label{
+      line-height: 60px;
+    }
+    .time{
+      line-height: 60px;
     }
   }
 }

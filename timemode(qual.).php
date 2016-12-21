@@ -10,7 +10,7 @@
                         <td class="col-3">START</td>
                         <td class="col-first col-4">FINISH</td>
                     </tr>
-                    <tr class="h60 person_heading person_active">
+                    <tr class="h60 person active">
                         <td class="col-1">UB 115 4T
                             Piston 54mm free</td>
                         <td class="col-2">1</td>

@@ -1157,7 +1157,7 @@ header {
   vertical-align: middle; }
   @media only screen and (max-width: 1440px) {
     .h50 td {
-      height: 36px; } }
+      height: 34px; } }
 
 .h40 td {
   height: 40px;
@@ -1215,17 +1215,20 @@ table {
       background: -webkit-linear-gradient(left, #ffb400, #ffb200);
       background: -moz-linear-gradient(right, #ffb400, #ffb200);
       background: -ms-linear-gradient(right, #ffb400, #ffb200);
-      background: 0 -linear-gradient(right, #ffb400, #ffb200); }
+      background: 0 -linear-gradient(right, #ffb400, #ffb200);
+      color: #000; }
     .list-player .person.active .col-2 {
       background: #ffb400;
       background: linear-gradient(to right, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -webkit-linear-gradient(left, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -moz-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
       background: -ms-linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
-      background: 0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000); }
+      background: 0 -linear-gradient(right, #ffb400, #ffb200, #ffb200, #ff9000);
+      color: #000; }
     .list-player .person.active .col-3,
     .list-player .person.active .col-4 {
-      background: #ff9000; }
+      background: #ff9000;
+      color: #000; }
 .list-player.timemode .col-1 {
   width: 200px;
   padding-left: 20px;
@@ -1481,7 +1484,7 @@ table {
     font-size: 24px; }
   header .logo {
     width: 105px;
-    padding-top: 25px; }
+    padding-top: 15px; }
 
   .label-col {
     font-size: 14px; }
@@ -1548,7 +1551,6 @@ table {
   .list-content-result .person .bracket-number {
     font-size: 20px !important; }
   .list-content-result .person .cup-right {
-<<<<<<< HEAD
     padding-left: 0 !important; }
 
   .bg-over:before {
@@ -1568,42 +1570,7 @@ table {
     top: 22%;
     width: 36px; }
   .list-center-end-right .h60 td {
-    height: 55px; }
-
-  table tr td:last-child {
-    padding-right: 10px; } }
-.timemode_qual .timeline_right .label-col .col-1, .timemode_qual .timeline_right .label-col .col-2, .timemode_qual .timeline_right .label-col .col-3, .timemode_qual .timeline_right .label-col .col-4 {
-  width: 25%; }
-.timemode_qual .timeline_right .label-col .seeding {
-  padding-left: 30px !important; }
-.timemode_qual .timeline_right .label-col .small {
-  font-size: 14px; }
-.timemode_qual .timeline_right .person .stt {
-  padding-left: 30px;
-  text-align: left; }
-.timemode_qual .timeline_right .name_title {
-  text-align: center; }
-.timemode_qual .timeline_right .name {
-  font-size: 14px;
-  text-align: right; }
-
-=======
-    padding-left: 0 !important; } }
->>>>>>> c265f2b3a4930bfe385c58aa96462dc72a1e5c9d
-.person_active {
-  background-color: #ffb400;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#ff9000));
-  background-image: -webkit-linear-gradient(top, #ffb400, #ff9000);
-  background-image: -moz-linear-gradient(top, #ffb400, #ff9000);
-  background-image: -ms-linear-gradient(top, #ffb400, #ff9000);
-  background-image: -o-linear-gradient(top, #ffb400, #ff9000);
-  background-image: linear-gradient(top, #ffb400, #ff9000);
-  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#ffb400', end-colourStr='#ff9000'); }
-
-.person_heading {
-  color: #000 !important;
-  font-size: 20px; }
-
+    height: 55px; } }
 .box-center {
   width: 100%; }
 
@@ -1868,8 +1835,6 @@ table {
           left: 0;
           border-top: 1px solid #fff; }
 
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 1440px) {
   .timemode_qual .list-player .name-col-1 {
     font-size: 17px; }
@@ -1911,17 +1876,17 @@ table {
     padding-right: 20px; }
 
   .h80 {
-    height: 20px; }
+    height: 15px; }
 
   .other-result .cot1 img, .other-result .cot9 img {
-    width: 58px; }
+    width: 50px; }
 
   .other-result .h80 .cot2 img, .other-result .h80 .cot8 img {
     width: 35px;
     right: -9px; }
 
   .other-result .mb-20 {
-    height: 14px; }
+    height: 13px; }
 
   .label-col {
     font-size: 15px; }
@@ -1932,8 +1897,10 @@ table {
       font-size: 10px; }
   .list-best-result .col-2 {
     width: 60px; }
-  .list-best-result .col-4 span {
-    font-size: 10px; }
+  .list-best-result .col-4 {
+    line-height: 15px; }
+    .list-best-result .col-4 span {
+      font-size: 10px; }
 
   .col-first {
     padding-left: 0; }
@@ -1942,7 +1909,16 @@ table {
     padding-left: 0; }
 
   .list-player .person {
-    font-size: 14px; } }
+    font-size: 14px; }
 
->>>>>>> c265f2b3a4930bfe385c58aa96462dc72a1e5c9d
+  .wrap-page {
+    margin-top: 30px; }
+
+  header {
+    height: 60px; }
+    header .label {
+      line-height: 60px; }
+    header .time {
+      line-height: 60px; } }
+
 /*# sourceMappingURL=styles.css.map */
